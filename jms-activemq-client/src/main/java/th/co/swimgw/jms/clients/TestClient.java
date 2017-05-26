@@ -15,7 +15,7 @@ public class TestClient {
 				.getBean("simpleMessageSender");
 
 		// Create a session within the connection.
-		messageSender.sendMessage("hello from JMS client");
+		messageSender.sendMessage("hello from JMS client 1");
 	}
 }
 	
