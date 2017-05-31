@@ -13,14 +13,14 @@
 		</dependency>
 		<dependency>
 			<groupId>com.isode.x400</groupId>
-			<artifactId>x400api</artifactId>
+			<artifactId>isode-x400</artifactId>
 			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.isode.x400</groupId>
-			<artifactId>x400lib</artifactId>
+			<artifactId>isode-lib</artifactId>
 			<version>1.0</version>
-		</dependency>
+		</dependency> 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>

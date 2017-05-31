@@ -153,13 +153,13 @@ public class MsgboxManagedBean
     Msgbox msgBox = new Msgbox();
     msgBox.setMsgOrgn("/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
     msgBox.setMsgOrgn2("VTBBSWIM");
-    msgBox.setMsgSubject("Test sending from Java");
-    msgBox.setMsgText("This is a boday part from Java 123");
+    msgBox.setMsgSubject("Test sending a message from Java");
+    msgBox.setMsgText("This is a boday part from Java");
     msgBox.setpContIdt(content_id);
     msgBox.setpLatestdelivery(latest_del_time);
     msgBox.setMsgPriority("1");
     
-    List<Msgboxrecipient> recipients = new ArrayList();
+    List<Msgboxrecipient> recipients = new ArrayList<Msgboxrecipient>();
     Msgboxrecipient recipient1 = new Msgboxrecipient();
     recipient1.setMsgbox(msgBox);
     recipient1.setOraddress("/CN=VTBBYUAB/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX");
@@ -171,14 +171,14 @@ public class MsgboxManagedBean
     recipient2.setMsgbox(msgBox);
     recipient2.setOraddress("/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
     recipient2.setAliasname("VTBBSWIM");
-    recipient2.setRecipienttype("BCC");
+    recipient2.setRecipienttype("CC");
     recipients.add(recipient2);
     
 
     msgBox.setMsgTo("VTBBYUAB VTBBSWIM");
     msgBox.setMsgboxrecipients(recipients);
     
-    List<Msgboxattachment> attachments = new ArrayList();
+    List<Msgboxattachment> attachments = new ArrayList<Msgboxattachment>();
     Msgboxattachment attachment = new Msgboxattachment();
     attachment.setMsgbox(msgBox);
     attachment.setFilename("TextFile11.txt");
@@ -199,11 +199,11 @@ public class MsgboxManagedBean
     
     Msgboxattachment attachment3 = new Msgboxattachment();
     attachment3.setMsgbox(msgBox);
-    Path path = Paths.get("C:/Users/rdas/Downloads/manual.pdf", new String[0]);
+    Path path = Paths.get("C:/Users/Kasama/Documents/TestPdfFile.pdf", new String[0]);
     try
     {
       byte[] bytes3 = Files.readAllBytes(path);
-      attachment3.setFilename("manual33.pdf");
+      attachment3.setFilename("TestPdfFile.pdf");
       attachment3.setFiletype(Integer.valueOf(406));
       attachment3.setFilesize(Integer.valueOf(bytes3.length));
       attachment3.setBfile(bytes3);

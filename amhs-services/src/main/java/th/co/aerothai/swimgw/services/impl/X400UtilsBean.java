@@ -43,7 +43,7 @@ public class X400UtilsBean
   
   public List<Msgbox> getMsgBoxBeanList()
   {
-    System.out.println("+++++++++getMsgBoxBeanList+++++++++++");
+//    System.out.println("+++++++++getMsgBoxBeanList+++++++++++");
     return RcvUtils.getMsgboxBeanList(null);
   }
 }

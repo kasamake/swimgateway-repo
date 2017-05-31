@@ -1127,7 +1127,7 @@ public class SendUtils {
 		}
 
 		System.out.println("Building message envelope");
-		status = build_ms_env(msmessage_obj);
+		status = build_ms_env(msmessage_obj, msgBox);
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_msgnew failed " + status);
 			return status;
@@ -1467,6 +1467,123 @@ public class SendUtils {
 
 	}
 
+	/**
+	 * Build the envelope for a message for submission into the Message Store.
+	 */
+	private static int build_ms_env(MSMessage msmessage_obj, Msgbox msgbox) {
+		int status;
+		// String hostname = "attlee";
+		// String orig_ret_addr = "/CN=origretr/OU=lppt/O="
+		// + config.hostname + "/PRMD=TestPRMD/ADMD=TestADMD/C=GB/";
+
+		String orig_ret_addr = config.p7_bind_dn;
+		// String msg_id = "/PRMD=TestPRMD/ADMD=TestADMD/C=GB/;"
+		// + config.hostname + ".2810401-030924.140212";
+		
+//		String content_id = "030924.140219";
+//		 String latest_del_time = "170927120000Z";
+
+		String content_id = msgbox.getpContIdt();
+		String latest_del_time = msgbox.getpLatestdelivery();
+		// X400_N_CONTENT_LENGTH is probe only
+
+		// Priority: 0 - normal, 1 - non-urgent, 2 - urgent
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj, X400_att.X400_N_PRIORITY, Integer.parseInt(msgbox.getMsgPriority()));
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Disclosure of recipients: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj, X400_att.X400_N_DISCLOSURE, (msgbox.getPRcpDisc()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Implicit conversion prohibited: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj,
+				X400_att.X400_N_IMPLICIT_CONVERSION_PROHIBITED, (msgbox.getPImpConvPhb()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Alternate recipient allowed: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj,
+				X400_att.X400_N_ALTERNATE_RECIPIENT_ALLOWED, (msgbox.getPAltRcpAllow()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Content return request: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj, X400_att.X400_N_CONTENT_RETURN_REQUEST, (msgbox.getPContReturn()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Recipient reassignment prohibited: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj,
+				X400_att.X400_N_RECIPIENT_REASSIGNMENT_PROHIBITED, (msgbox.getPRcpRasgPhb()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Distribution List expansion prohibited: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj, X400_att.X400_N_DL_EXPANSION_PROHIBITED, (msgbox.getPDlExpPhb()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Conversion with loss prohibited: 0 - no, 1 - yes
+		status = com.isode.x400api.X400ms.x400_ms_msgaddintparam(msmessage_obj,
+				X400_att.X400_N_CONVERSION_WITH_LOSS_PROHIBITED, (msgbox.getPConvLossPhb()) ? 1 : 0);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+		// Message Identifier. In RFC 2156 String form
+		// status =
+		// com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
+		// X400_att.X400_S_MESSAGE_IDENTIFIER, msg_id, msg_id.length());
+		// if (status != X400_att.X400_E_NOERROR) {
+		// System.out.println("x400_ms_msgaddintparam failed " + status);
+		// return status;
+		// }
+
+		// Content Identifier
+		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_CONTENT_IDENTIFIER,
+				content_id, content_id.length());
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+
+//		 Latest Delivery Time: UTCTime format YYMMDDHHMMSS<zone>
+		 status =
+		 com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
+		 X400_att.X400_S_LATEST_DELIVERY_TIME, latest_del_time,
+		 latest_del_time.length());
+		 if (status != X400_att.X400_E_NOERROR) {
+		 System.out.println("x400_ms_msgaddintparam failed " + status);
+		 return status;
+		 }
+
+		// Originator Return Address (X.400 String format)
+		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
+				X400_att.X400_S_ORIGINATOR_RETURN_ADDRESS, orig_ret_addr, orig_ret_addr.length());
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgaddintparam failed " + status);
+			return status;
+		}
+		return status;
+
+	}
 	/**
 	 * Build the content for a message for submission into the Message Store.
 	 */
