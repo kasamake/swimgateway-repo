@@ -10,10 +10,19 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+import org.eclipse.persistence.oxm.annotations.XmlInverseReference;
 
 @Entity
 @Table(name="MSGBOXRECIPIENT")
 @NamedQuery(name="Msgboxrecipient.findAll", query="SELECT m FROM Msgboxrecipient m")
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Msgboxrecipient
   implements Serializable
 {
@@ -36,6 +45,7 @@ public class Msgboxrecipient
   private String recipienttype;
   @ManyToOne
   @JoinColumn(name="MSGID", referencedColumnName="ID", insertable=true)
+  @XmlTransient
   private Msgbox msgbox;
   
   public Integer getId()

@@ -25,12 +25,13 @@ public class MsgboxBean
     for (Msgboxattachment msgBoxAttachment : msgbox.getMsgboxattachments()) {
       saveFileAttachment(msgBoxAttachment, msgBoxAttachment.getId().intValue(), msgbox.getId());
     }
+    System.out.println("Msgbox ID: " + msgbox.getId());
     return msgbox;
   }
   
   public boolean addMsgbox(List<Msgbox> msgboxes)
   {
-    System.out.println("add msgbox");
+    System.out.println("Add msgboxes");
     for (int i = 0; i < msgboxes.size(); i++)
     {
       Msgbox msgbox = (Msgbox)msgboxes.get(i);

@@ -15,11 +15,13 @@
 			<groupId>com.isode.x400</groupId>
 			<artifactId>isode-x400</artifactId>
 			<version>1.0</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.isode.x400</groupId>
 			<artifactId>isode-lib</artifactId>
 			<version>1.0</version>
+			<scope>compile</scope>
 		</dependency> 
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -36,6 +38,11 @@
 			<version>5.2.1.Final</version> </dependency> <dependency> <groupId>dom4j</groupId> 
 			<artifactId>dom4j</artifactId> <version>1.6.1</version> <scope>provided</scope> 
 			</dependency> -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.moxy</artifactId>
+			<version>2.6.4</version>
+		</dependency>
 	</dependencies>
 
 

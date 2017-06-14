@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<title>Generate XML from a message</title>
+</head>
+<h:body>
+	<h:form id="form">
+		Msgbox ID: <h:inputText id="input" value="#{convertorManagedBean.msgId}" />
+		<h:commandButton value="Generate XML String"
+			action="#{convertorManagedBean.convertToXmlString()}" />
+		<h:commandButton value="Generate XML File"
+			action="#{convertorManagedBean.convertToXmlFile()}" />
+		<br />
+				The XML String is : <h:outputText
+			value="#{convertorManagedBean.xmlString}" />
+	</h:form>
+	<h:form>
+	File path: <h:inputText id="filename" value="#{convertorManagedBean.filename}" />
+	<h:commandButton value="Convert XML file to object"
+		action="#{convertorManagedBean.convertXMLtoMsgbox()}" />
+	</h:form>
+</h:body>
+</html>

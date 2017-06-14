@@ -11,7 +11,7 @@
 	<h:form id="form">
 		<h:commandButton value="Receive" action="#{msgboxManagedBean.receiveMessage()}" />
 		<h:commandButton value="Send" action="#{msgboxManagedBean.sendMessage()}" />
-		<h:inputText id="input" value="#{msgboxManagedBean.testName}" />
+		<h:inputText id="input" value="#{msgboxManagedBean.sqn}" />
 		
 	</h:form>
 		The latest sequence number is : <h:outputText value="#{msgboxManagedBean.latestSqn}" />

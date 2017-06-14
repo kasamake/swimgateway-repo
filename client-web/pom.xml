@@ -13,16 +13,30 @@
 			<version>7.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- 
 		<dependency>
 			<groupId>th.co.aerothai.swimgw</groupId>
 			<artifactId>jndi-lookup-util</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>th.co.aerothai.swimgw</groupId>
 			<artifactId>amhs-services</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<!-- 
+		<dependency>
+			<groupId>com.isode.x400</groupId>
+			<artifactId>isode-x400</artifactId>
+			<version>1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.isode.x400</groupId>
+			<artifactId>isode-lib</artifactId>
+			<version>1.0</version>
+			<scope>provided</scope>
+		</dependency>  -->
 	</dependencies>
 	
 	<build>

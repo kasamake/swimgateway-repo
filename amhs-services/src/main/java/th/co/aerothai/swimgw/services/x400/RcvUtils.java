@@ -343,31 +343,33 @@ public class RcvUtils {
 			msgBoxs.add(msgBox);
 //			ApplicationClient.latestSequence = msgBox.getMsgsqn();
 			
+//			 delete the API msg object and from the Store
+			 status = com.isode.x400api.X400ms.x400_ms_msgdel(msmessage_obj, 0);
+			if (status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_msgget failed " + status);
+				return msgBoxs;
+			}
+
+			
 			if (status != X400_att.X400_E_NOERROR) {
 				System.out.println("x400_ms_msggetfinish failed " + status);
 				// close the API session
 				status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
 				if (status != X400_att.X400_E_NOERROR) {
 					System.out.println("x400_ms_close failed " + status);
-//					return;
+					return msgBoxs;
 				}
 				System.out.println("Closed Session successfully\n");
-//				return;
+				return msgBoxs;
 			}
 		}
 
-//		 delete the API msg object and from the Store
-//		 status = com.isode.x400api.X400ms.x400_ms_msgdel(msmessage_obj, 0);
-//		if (status != X400_att.X400_E_NOERROR) {
-//			System.out.println("x400_ms_msgget failed " + status);
-//			return;
-//		}
 
 		// close the API session
 		status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_close failed " + status);
-			return null;
+			return msgBoxs;
 		}
 		System.out.println("Closed Session successfully\n");
 		return msgBoxs;

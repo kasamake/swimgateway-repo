@@ -1818,7 +1818,8 @@ public class SendUtils {
 
 		int num_atts = 0;
 
-		String ipm_id = "1064400656.24922*";
+//		String ipm_id = "1064400656.24922*";
+		String ipm_id = msgBox.getIpmId();
 
 		// int num_atts = 0;
 		// String subject = "Test message from Java3";

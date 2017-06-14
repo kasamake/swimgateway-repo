@@ -8,11 +8,13 @@ import javax.ejb.Local;
 import javax.ejb.Remote;
 import javax.ejb.Remove;
 import javax.ejb.Stateful;
+import javax.ejb.Stateless;
+
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.services.api.IX400Utils;
 import th.co.aerothai.swimgw.services.x400.RcvUtils;
 
-@Stateful
+@Stateless
 @Local
 public class X400UtilsBean
   implements IX400Utils
