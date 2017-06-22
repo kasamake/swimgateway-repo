@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<title>Sending and Receiving messages from queue</title>
+</head>
+<h:body>
+	<h:form id="form">
+		<h:inputTextarea id="input" value="#{queueMessageManagedBean.message}" rows="30" cols="100"/>
+		<h:commandButton value="Send"
+			action="#{queueMessageManagedBean.sendMessage()}" />
+		<h:commandButton value="Recieve"
+			action="#{queueMessageManagedBean.receiveMessage()}" />	
+	</h:form>
+</h:body>
+</html>

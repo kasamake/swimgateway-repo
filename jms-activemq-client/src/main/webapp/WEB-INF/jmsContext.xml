@@ -10,7 +10,8 @@
     http://www.springframework.org/schema/jms/spring-jms-3.0.xsd">
  
 	<bean id="connectionFactory" class="org.apache.activemq.spring.ActiveMQConnectionFactory">
-		<property name="brokerURL" value="tcp://172.16.21.206:61616" />
+		<!-- <property name="brokerURL" value="tcp://172.16.21.206:61616" /> -->
+		<property name="brokerURL" value="tcp://localhost:61616" /> 
 	</bean>
  
 	<jms:listener-container container-type="default"
@@ -21,4 +22,14 @@
  
 	<!-- To receive JMS message -->
 	<bean id="simpleMessageListener" class="th.co.swimgw.jms.clients.SimpleMessageListener" />
+	
+		<!-- To send JMS message 
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="defaultDestinationName" value="AMHS"/>
+	</bean>
+	
+	<bean id="messageSenderBean" class="th.co.swimgw.jms.clients.MessageSenderBean">
+		<property name="jmsTemplate" ref="jmsTemplate" />
+	</bean>-->
 </beans>
