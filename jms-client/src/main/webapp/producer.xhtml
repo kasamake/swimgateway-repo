@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<title>Message Sender</title>
+</head>
+<h:body>
+	<h:form id="form">
+		<table>
+			<tr>
+				<td>Queue: </td>
+				<td><h:inputText id="queue" value="#{producerManagedBean.queueName}"/></td>
+			</tr>
+			<tr>
+				<td>Message: </td>
+				<td><h:inputTextarea id="message" value="#{producerManagedBean.message}" rows="30" cols="100"/></td>
+			</tr>
+			<tr>
+				<td/>
+				<td><h:commandButton value="Send"
+					action="#{producerManagedBean.sendMessage()}" /></td>
+			</tr>
+		</table>
+		
+	</h:form>
+</h:body>
+</html>

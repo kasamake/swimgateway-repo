@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<title>Message Receiver</title>
+</head>
+<h:body>
+	<h:form id="form">
+		<table>
+			<tr>
+				<td>
+					<h:commandButton value="Receive"
+						action="#{consumerManagedBean.receiveMessage()}" />
+						<h:commandButton value="Start"
+						action="#{consumerManagedBean.startListening()}" />
+					<h:commandButton value="Stop"
+						action="#{consumerManagedBean.stopConnection()}" />
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>Queue: </td>
+				<td><h:inputText id="queue" value="#{consumerManagedBean.queueName}"/></td>
+			</tr>
+			<tr>
+				<td>Message: </td>
+				<td><h:outputText id="message" value="#{consumerManagedBean.message}"/></td>
+			</tr>
+		</table>
+		
+	</h:form>
+</h:body>
+</html>
