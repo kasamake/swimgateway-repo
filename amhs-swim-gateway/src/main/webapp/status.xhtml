@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<style type="text/css">
+.thirty-percent {
+	width: 33%;
+}
+</style>
+
+</h:head>
+<body>
+	<h1>Gateway Status</h1>
+	<p:panelGrid columns="3" style="width:100%"
+		styleClass="ui-panelgrid-blank">
+		<p:column>
+			<p:row>
+			<p:outputLabel value="AMHS"></p:outputLabel>
+			</p:row>
+			<p:row>
+			<p:graphicImage value="src/img/server-icon-3700.png" /></p:row>
+			<p:row>
+			<p:graphicImage value="src/img/green-circle.png" style="width:50px" /></p:row>
+		</p:column>
+		<p:column>
+			<p:graphicImage value="src/img/arrow.png"
+				style="width:300px; text-align:center;" />
+		</p:column>
+
+	</p:panelGrid>
+	<p:column>
+		<p:outputLabel value="ESB"></p:outputLabel>
+		<p:graphicImage value="src/img/server-icon-3700.png" />
+		<p:graphicImage value="src/img/green-circle.png" style="width:50px" />
+	</p:column>
+
+
+</body>
+</html>

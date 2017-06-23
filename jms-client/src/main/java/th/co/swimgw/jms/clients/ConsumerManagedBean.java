@@ -4,13 +4,15 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
 import javax.jms.JMSException;
 
 import th.co.swimgw.jms.pubsub.Consumer;
 import th.co.swimgw.jms.pubsub.Producer;
 
 @ManagedBean(name = "consumerManagedBean")
-@SessionScoped
+@ViewScoped
+//@SessionScoped
 public class ConsumerManagedBean {
 
 	String message;

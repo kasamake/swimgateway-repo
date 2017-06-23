@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<style type="text/css">
+.fifty-percent {
+	width: 50%;
+}
+</style>
+
+</h:head>
+<body>
+	<h1>Incoming/Outgoing Messages</h1>
+	<p:panelGrid columns="2" style="width:100%"
+		columnClasses="fifty-percent, fifty-percent">
+		<p:panel id="amhs" header="AMHS -> ESB" style="height:500px">
+			<p:panelGrid columns="1" styleClass="ui-panelgrid-blank">
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:36:09 
+					FF 060836 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C -VTSP... "></p:outputLabel>
+				<p:outputLabel
+					value="VTBBOPMT -> VTBBYUAA 06 Jun 2017 08:36:09 
+					FF 060836 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C -VTSP0100... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:40:22 
+					FF 060840 IA5-TEXT (FPL-AIQ320-IS -A320/M-SFDGHI... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:50:45 
+					FF 060850 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C -VTSP... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 09:10:22 
+					FF 060910 IA5-TEXT (FPL-AIQ320-IS -A320/M-SFDGHI... "></p:outputLabel>
+				<p:outputLabel
+					value="VTBBYUAB -> VTBBYUAA (DLA) 06 Jun 2017 09:11:09 
+					FF 060911 IA5-TEXT (DLA-FDSF-AAAA0000-AAAA-0) "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:36:09 
+					FF 060836 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C -VTSP... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:40:22 
+					FF 060840 IA5-TEXT (FPL-AIQ320-IS -A320/M-SFDGHIR... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 08:50:45 
+					FF 060850 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C -VTSP... "></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA -> VTBBYUAA (FPL) 06 Jun 2017 09:10:22 
+					FF 060910 IA5-TEXT (FPL-AIQ320-IS -A320/M-SFDGHIR... "></p:outputLabel>
+				<p:outputLabel
+					value="VTBBYUAB -> VTBBYUAA (DLA) 06 Jun 2017 09:11:09 
+					FF 060911 IA5-TEXT (DLA-FDSF-AAAA0000-AAAA-0) "></p:outputLabel>
+			</p:panelGrid>
+		</p:panel>
+		<p:panel id="esb" header="ESB->AMHS" style="height:500px">
+			<p:panelGrid columns="1" styleClass="ui-panelgrid-blank">
+				<p:outputLabel
+					value="VTBBYUAB VTBBYUAA 06 Jun 2017 08:36:09 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA VTBBYUAA 06 Jun 2017 08:40:22  (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA 06 Jun 2017 09:10:22 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F360 AGOSA1N... "></p:outputLabel>
+				<p:outputLabel
+					value="VTBBYUAB VTBBYUAA 06 Jun 2017 09:20:09 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VTBBOPMT VTBBYUAA 06 Jun 2017 09:40:22  (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA 06 Jun 2017 09:50:22 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F360 AGOSA1N... "></p:outputLabel>
+				<p:outputLabel
+					value="VTBBYUAB VTBBYUAA 06 Jun 2017 09:56:09 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VTBBOPMT VTBBYUAA 06 Jun 2017 09:58:22  (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F..."></p:outputLabel>
+				<p:outputLabel
+					value="VHHHYUAA 06 Jun 2017 10:10:22 (FPL-AIQ320-IS -A320/M-SFDGHIRW/SD -WMKK0825 -N0463F360 AGOSA1N... "></p:outputLabel>
+			</p:panelGrid>
+		</p:panel>
+	</p:panelGrid>
+
+</body>
+</html>

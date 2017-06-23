@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<style type="text/css">
+.fifty-percent {
+	width: 50%;
+}
+</style>
+
+</h:head>
+<body>
+	<h1>Gateway Setup</h1>
+	<p:panelGrid columns="2" style="width:100%"
+		columnClasses="fifty-percent, fifty-percent">
+		<p:panel id="amhs" header="AMHS" style="height:250px">
+			<!--  
+				<p:outputLabel for="type" value="Type:"></p:outputLabel>
+				<p:selectOneRadio id="type" value="0">
+					<f:selectItem itemLabel="Message Store (P7)" itemValue="0" />
+					<f:selectItem itemLabel="MTA (P3) " itemValue="1" />
+				</p:selectOneRadio>-->
+			<p:panelGrid columns="2" styleClass="ui-panelgrid-blank">
+				<p:outputLabel for="oraddress" value="ORAddress:" />
+				<p:inputText id="oraddress"
+					value="CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/"
+					size="65" />
+				<p:outputLabel for="dn" value="DN:" />
+				<p:inputText id="dn" value="c=TH" />
+				<p:outputLabel for="pa" value="Presentation Address:" />
+				<p:inputText id="pa"
+					value="&quot;3001&quot;/URI+0000+URL+itot://172.16.21.134:3001"
+					size="65" />
+				<p:outputLabel for="credentials" value="Password:" />
+				<p:password id="credentials" value="secret" />
+				<p:button value="Connect"></p:button>
+				
+			</p:panelGrid>
+		</p:panel>
+		<p:panel id="esb" header="ESB" style="height:250px">
+			<p:panelGrid columns="2" styleClass="ui-panelgrid-blank">
+				<p:outputLabel for="broker" value="Broker name:" />
+				<p:inputText id="broker" value="tcp://172.16.21.206:61616" />
+				<p:outputLabel for="queue" value="Queue name:" />
+				<p:inputText id="queue" value="AMHS" />
+				<p:outputLabel for="client" value="Client ID" />
+				<p:inputText id="client" value="jms-client" />
+				<p:button value="Connect"></p:button>
+			</p:panelGrid>
+		</p:panel>
+	</p:panelGrid>
+
+</body>
+</html>

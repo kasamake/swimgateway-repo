@@ -103,10 +103,11 @@ public class QueueMessageBean implements IQueueMessageBean {
 			if (m1 instanceof TextMessage) {
 				TextMessage text = (TextMessage) m1;
 				System.out.println("Message is : " + text.getText());
-			} else {
-				Person p = (Person) m1;
-				System.out.println("Person name : " + p.getName() + "  	age: " + p.getAge());
-			}
+			} 
+//			else {
+//				Person p = (Person) m1;
+//				System.out.println("Person name : " + p.getName() + "  	age: " + p.getAge());
+//			}
 
 			connection.close();
 		} catch (JMSException e) {
