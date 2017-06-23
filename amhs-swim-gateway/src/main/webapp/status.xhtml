@@ -10,6 +10,7 @@
 	<style type="text/css">
 .thirty-percent {
 	width: 33%;
+	text-align: center;
 }
 </style>
 
@@ -17,27 +18,20 @@
 <body>
 	<h1>Gateway Status</h1>
 	<p:panelGrid columns="3" style="width:100%"
-		styleClass="ui-panelgrid-blank">
-		<p:column>
-			<p:row>
-			<p:outputLabel value="AMHS"></p:outputLabel>
-			</p:row>
-			<p:row>
-			<p:graphicImage value="src/img/server-icon-3700.png" /></p:row>
-			<p:row>
-			<p:graphicImage value="src/img/green-circle.png" style="width:50px" /></p:row>
-		</p:column>
-		<p:column>
-			<p:graphicImage value="src/img/arrow.png"
-				style="width:300px; text-align:center;" />
-		</p:column>
-
+		styleClass="ui-panelgrid-blank" columnClasses="thirty-percent,thirty-percent,thirty-percent">
+			<p:graphicImage value="src/img/computer.jpg"/>
+			<p:graphicImage value="src/img/arrow3.png" height="100px" width="180px"/>
+			<p:graphicImage value="src/img/computer.jpg" />
+		
+			<p:outputLabel value="AMHS" style="font-weight:bold"></p:outputLabel>
+			<p:outputLabel value="&nbsp;"></p:outputLabel>
+			<p:outputLabel value="ESB" style="font-weight:bold"></p:outputLabel>
+			
+			<p:graphicImage value="src/img/green-circle.png" width="40px"/>
+			<p:outputLabel value="&nbsp;"></p:outputLabel>
+			<p:graphicImage value="src/img/green-circle.png" width="40px" />
 	</p:panelGrid>
-	<p:column>
-		<p:outputLabel value="ESB"></p:outputLabel>
-		<p:graphicImage value="src/img/server-icon-3700.png" />
-		<p:graphicImage value="src/img/green-circle.png" style="width:50px" />
-	</p:column>
+
 
 
 </body>
