@@ -8,8 +8,11 @@
 
 <h:head>
 	<style type="text/css">
-.fifty-percent {
-	width: 50%;
+.forty-percent {
+	width: 40%;
+}
+.sixty-percent {
+	width: 60%;
 }
 </style>
 
@@ -17,8 +20,8 @@
 <body>
 	<h1>Gateway Setup</h1>
 	<p:panelGrid columns="2" style="width:100%"
-		columnClasses="fifty-percent, fifty-percent">
-		<p:panel id="amhs" header="AMHS" style="height:250px">
+		columnClasses="sixty-percent,forty-percent">
+		<p:panel id="amhs" header="AMHS" style="height:260px">
 			<!--  
 				<p:outputLabel for="type" value="Type:"></p:outputLabel>
 				<p:selectOneRadio id="type" value="0">
@@ -29,20 +32,20 @@
 				<p:outputLabel for="oraddress" value="ORAddress:" />
 				<p:inputText id="oraddress"
 					value="CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/"
-					size="65" />
+					size="75" />
 				<p:outputLabel for="dn" value="DN:" />
 				<p:inputText id="dn" value="c=TH" />
 				<p:outputLabel for="pa" value="Presentation Address:" />
 				<p:inputText id="pa"
 					value="&quot;3001&quot;/URI+0000+URL+itot://172.16.21.134:3001"
-					size="65" />
+					size="75" />
 				<p:outputLabel for="credentials" value="Password:" />
 				<p:password id="credentials" value="secret" />
 				<p:button value="Connect"></p:button>
 				
 			</p:panelGrid>
 		</p:panel>
-		<p:panel id="esb" header="ESB" style="height:250px">
+		<p:panel id="esb" header="ESB" style="height:260px">
 			<p:panelGrid columns="2" styleClass="ui-panelgrid-blank">
 				<p:outputLabel for="broker" value="Broker name:" />
 				<p:inputText id="broker" value="tcp://172.16.21.206:61616" />
