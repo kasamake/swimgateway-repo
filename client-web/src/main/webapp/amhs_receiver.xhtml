@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<head>
+<title>Gateway - AMHS Service</title>
+</head>
+<h:body>
+	<h:form id="form">
+			<table>
+				<tr>
+					<td><h:commandButton value="Receive"
+							action="#{amhsManagedBean.receiveMessage()}" /> 
+							<h:commandButton
+							value="Start" action="#{amhsManagedBean.startReceivingMessage()}" />
+						<h:commandButton value="Stop"
+							action="#{amhsManagedBean.stopReceivingMessage()}" /></td>
+					<td>Status: <h:outputText value="#{amhsManagedBean.status}"></h:outputText>
+					</td>
+				</tr>
+				<tr>
+					<td>The latest sequence number is : <h:outputText
+							value="#{amhsManagedBean.latestSqn}" /></td>
+					<td>The number of retrieved messages is : <h:outputText
+							value="#{amhsManagedBean.retreiveMsgNo}" /></td>
+				</tr>
+			</table>
+
+	</h:form>
+</h:body>
+</html>

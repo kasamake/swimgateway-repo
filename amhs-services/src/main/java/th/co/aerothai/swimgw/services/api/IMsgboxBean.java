@@ -10,7 +10,7 @@ public abstract interface IMsgboxBean
   
   public abstract boolean addMsgbox(List<Msgbox> paramList);
   
-  public abstract int addMsgbox(List<Msgbox> paramList, int paramInt);
+//  public abstract int addMsgbox(List<Msgbox> paramList, int paramInt);
   
   public abstract Msgbox getMsgbox(int paramInt);
   

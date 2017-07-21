@@ -12,6 +12,7 @@ import javax.annotation.PreDestroy;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.jms.JMSException;
 import javax.naming.NamingException;
 import javax.validation.constraints.AssertTrue;
 
@@ -26,16 +27,17 @@ import th.co.aerothai.swimgw.services.api.IMsgboxBean;
 import th.co.aerothai.swimgw.services.api.IX400Utils;
 import th.co.aerothai.swimgw.services.x400.SendUtils;
 
-@ManagedBean(name = "msgboxManagedBean")
+@ManagedBean(name = "amhsManagedBean")
 @SessionScoped
-public class MsgboxManagedBean {
+public class AmhsManagedBean {
 	private int latestSqn;
 
 	@EJB
 	private IX400Utils x400Utils;
 	private int retreiveMsgNo;
 	private int sqn;
-	private boolean serviceRunning;
+//	private boolean serviceRunning;
+	private String status;
 	@EJB
 	IMsgboxBean msgboxBean;
 
@@ -47,56 +49,9 @@ public class MsgboxManagedBean {
 		System.out.println("Setting up after creating the JSF managed bean.");
 	}
 
-	// public String start()
-	// throws NamingException
-	// {
-	// if (this.x400Utils != null)
-	// {
-	// this.x400Utils.end();
-	// this.x400Utils = null;
-	// System.out.println("Refreshing Utils!");
-	// }
-	// String moduleName = "client-web";
-	//
-	//
-	// String beanName = "X400UtilsBean";
-	//
-	// String interfaceQualifiedName = IX400Utils.class.getName();
-	//
-	//
-	// LookerUp wildf9Lookerup = new LookerUp();
-	//
-	//
-	//
-	// this.x400Utils =
-	// ((IX400Utils)wildf9Lookerup.findLocalSessionBean(moduleName, beanName,
-	// interfaceQualifiedName));
-	//
-	// return "msgbox.xhtml";
-	// }
 
 	public String receiveMessage() throws NamingException {
-		// if (this.x400Utils != null)
-		// {
-		// this.x400Utils.end();
-		// this.x400Utils = null;
-		// }
-		// String moduleName = "client-web";
-		//
-		//
-		// String beanName = "X400UtilsBean";
-		//
-		// String interfaceQualifiedName = IX400Utils.class.getName();
-		//
-		//
-		// LookerUp wildf9Lookerup = new LookerUp();
-		//
-		//
-		//
-		// this.x400Utils =
-		// ((IX400Utils)wildf9Lookerup.findLocalSessionBean(moduleName,
-		// beanName,
-		// interfaceQualifiedName));
+
 
 		List<Msgbox> msgboxes = this.x400Utils.getMsgBoxBeanList();
 		System.out.println("Sqn: " + this.sqn);
@@ -116,27 +71,10 @@ public class MsgboxManagedBean {
 			setLatestSqn(((Msgbox) msgboxes.get(getRetreiveMsgNo() - 1)).getMsgsqn().intValue());
 		}
 
-		return "msgbox.xhtml";
+		return "amhs_receiver.xhtml";
 	}
 
 	public String sendMessage() throws NamingException {
-		// if (this.x400Utils != null)
-		// {
-		// this.x400Utils.end();
-		// this.x400Utils = null;
-		// }
-		// String moduleName = "client-web";
-		//
-		// String beanName = "X400UtilsBean";
-		//
-		// String interfaceQualifiedName = IX400Utils.class.getName();
-		//
-		// LookerUp wildf9Lookerup = new LookerUp();
-		//
-		// this.x400Utils =
-		// ((IX400Utils)wildf9Lookerup.findLocalSessionBean(moduleName,
-		// beanName,
-		// interfaceQualifiedName));
 
 		Msgbox sendMsgbox = createSampleMsg();
 		int status = SendUtils.send_msg(null, sendMsgbox);
@@ -144,7 +82,7 @@ public class MsgboxManagedBean {
 			Msgbox addMsgbox = this.msgboxBean.addMsgbox(sendMsgbox);
 			System.out.println("send message ID: " + addMsgbox.getId());
 		}
-		return "msgbox.xhtml";
+		return "amhs_sender.xhtml";
 	}
 
 	public static Msgbox createSampleMsg() {
@@ -152,9 +90,9 @@ public class MsgboxManagedBean {
 		String latest_del_time = "170927120000Z";
 
 		Msgbox msgBox = new Msgbox();
-		msgBox.setMsgOrgn("/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
-		msgBox.setMsgOrgn2("VTBBSWIM");
-		msgBox.setMsgSubject("Test 1 2 3");
+		msgBox.setMsgOrgn("/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
+		msgBox.setMsgOrgn2("VTBBYUAA");
+		msgBox.setMsgSubject("Test msg from Java (AMHS managed bean)");
 		msgBox.setMsgText("This is a boday part from Java");
 		msgBox.setpContIdt(content_id);
 		msgBox.setpLatestdelivery(latest_del_time);
@@ -173,12 +111,12 @@ public class MsgboxManagedBean {
 
 		Msgboxrecipient recipient2 = new Msgboxrecipient();
 		recipient2.setMsgbox(msgBox);
-		recipient2.setOraddress("/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
-		recipient2.setAliasname("VTBBYUAA");
+		recipient2.setOraddress("/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/");
+		recipient2.setAliasname("VTBBSWIM");
 		recipient2.setRecipienttype("PRIMARY");
 		recipients.add(recipient2);
 
-		msgBox.setMsgTo("VTBBYUAB VTBBYUAA");
+		msgBox.setMsgTo("VTBBYUAB VTBBSWIM");
 		msgBox.setMsgboxrecipients(recipients);
 
 		List<Msgboxattachment> attachments = new ArrayList<Msgboxattachment>();
@@ -200,28 +138,27 @@ public class MsgboxManagedBean {
 		attachment2.setBfile(textBytes2);
 		attachments.add(attachment2);
 
-		// Msgboxattachment attachment3 = new Msgboxattachment();
-		// attachment3.setMsgbox(msgBox);
-		// Path path = Paths.get("C:/Users/Kasama/Documents/TestPdfFile.pdf",
-		// new String[0]);
-		// try
-		// {
-		// byte[] bytes3 = Files.readAllBytes(path);
-		// attachment3.setFilename("TestPdfFile.pdf");
-		// attachment3.setFiletype(Integer.valueOf(406));
-		// attachment3.setFilesize(Integer.valueOf(bytes3.length));
-		// attachment3.setBfile(bytes3);
-		// attachments.add(attachment3);
-		// }
-		// catch (IOException e)
-		// {
-		// e.printStackTrace();
-		// }
 		msgBox.setMsgboxattachments(attachments);
 
 		msgBox.setAttachcount(Integer.valueOf(attachments.size()));
 		msgBox.setRcpcount(Integer.valueOf(recipients.size()));
 		return msgBox;
+	}
+
+	public void startReceivingMessage() throws NamingException, JMSException {
+
+		this.status = "Service started";
+		timerBean.openConnection();
+		timerBean.setRunning(true);
+
+//		return "amhs_receiver.xhtml";
+	}
+	
+	public void stopReceivingMessage() throws NamingException, JMSException {
+		this.status = "Service stopped";
+		timerBean.setRunning(false);
+		timerBean.closeConnection();
+//		return "amhs_receiver.xhtml";
 	}
 
 	public int getLatestSqn() {
@@ -256,12 +193,15 @@ public class MsgboxManagedBean {
 		this.sqn = sqn;
 	}
 
-	public boolean isServiceRunning() {
-		return serviceRunning;
+
+	public String getStatus() {
+		return status;
 	}
 
-	public void setServiceRunning(boolean serviceRunning) {
-		this.serviceRunning = serviceRunning;
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
+
 
 }

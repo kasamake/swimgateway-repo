@@ -6,6 +6,9 @@
         <dependent-module archiveName="amhs-services-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/amhs-services/amhs-services">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="jms-services-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/jms-services/jms-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="client-web"/>
         <property name="java-output-path" value="/client-web/target/classes"/>
     </wb-module>

@@ -1,6 +1,12 @@
 package th.co.aerothai.swimgw.services.impl;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import javax.ejb.Local;
 import javax.ejb.Stateless;
@@ -44,10 +50,10 @@ public class MsgboxBean
     return true;
   }
   
-  public int addMsgbox(List<Msgbox> msgboxes, int latestAdd)
-  {
-    return 0;
-  }
+//  public int addMsgbox(List<Msgbox> msgboxes, int latestAdd)
+//  {
+//    return 0;
+//  }
   
   public Msgbox getMsgbox(int id)
   {
@@ -62,6 +68,27 @@ public class MsgboxBean
   
   public int saveFileAttachment(Msgboxattachment msgBoxAttachment, int msgBoxAttachmentId, int msgBoxId)
   {
-    return 0;
+	  FileOutputStream fos;
+		try {
+			Path directoryPath = Paths.get("SwimMsgBoxAttachment");
+			System.out.println("Directory path: " + directoryPath.toAbsolutePath().toString());
+			File directory = directoryPath.toAbsolutePath().toFile();
+			if (!directory.exists()) {
+				directory.mkdirs();
+			}
+
+			String fileName = msgBoxId + "_" + msgBoxAttachmentId + "_" + msgBoxAttachment.getFilename();
+			Path filePath = Paths.get("SwimMsgBoxAttachment", fileName);
+
+			fos = new FileOutputStream(filePath.toAbsolutePath().toString());
+			fos.write(msgBoxAttachment.getBfile());
+			fos.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return 0;
   }
 }

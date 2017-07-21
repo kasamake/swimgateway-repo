@@ -28,6 +28,7 @@ public class ConvertorManagedBean {
 	String xmlString;
 	int msgId; 
 	String filename;
+	String jsonString;
 	@EJB
 	IConvertorBean convertorBean;
 
@@ -52,11 +53,17 @@ public class ConvertorManagedBean {
 	}
 	
 	public String convertXMLtoMsgbox() {
-		Msgbox msgbox = this.convertorBean.convertXMLtoMsgbox(filename);
+		Msgbox msgbox = this.convertorBean.convertXMLFiletoMsgbox(filename);
 		msgboxBean.addMsgbox(msgbox);
 		return "convertor.xhtml";
 	}
 
+	public String convertToJsonString() {
+//		Msgbox msgbox = this.msgboxBean.getMsgbox(msgId);
+		this.jsonString = this.convertorBean.convertMsgboxToJson(msgId);
+
+		return "convertor.xhtml";
+	}
 	@PreDestroy
 	public void cleanUp() {
 		System.out.println("Cleaning up before destroying the JSF managed bean.");
@@ -85,6 +92,14 @@ public class ConvertorManagedBean {
 
 	public void setFilename(String filename) {
 		this.filename = filename;
+	}
+
+	public String getJsonString() {
+		return jsonString;
+	}
+
+	public void setJsonString(String jsonString) {
+		this.jsonString = jsonString;
 	}
 
 

@@ -13,9 +13,14 @@
 			action="#{convertorManagedBean.convertToXmlString()}" />
 		<h:commandButton value="Generate XML File"
 			action="#{convertorManagedBean.convertToXmlFile()}" />
+			<h:commandButton value="Generate JSON String"
+			action="#{convertorManagedBean.convertToJsonString()}" />
 		<br />
 				The XML String is : <h:outputText
 			value="#{convertorManagedBean.xmlString}" />
+		<br />
+				The Json String is : <h:outputText
+			value="#{convertorManagedBean.jsonString}" />
 	</h:form>
 	<h:form>
 	File path: <h:inputText id="filename" value="#{convertorManagedBean.filename}" />

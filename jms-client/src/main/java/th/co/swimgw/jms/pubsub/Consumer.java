@@ -26,7 +26,8 @@ public class Consumer {
 	private Connection connection;
 	private Session session;
 	private MessageConsumer messageConsumer;
-	private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
+//	private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
+	 private static String url = "tcp://172.16.21.206:61616";
 
 	public void create(String clientId, String queueName) throws JMSException {
 		LOGGER.info("Start Connection");
@@ -36,7 +37,8 @@ public class Consumer {
 		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
 
 		// create a Connection
-		connection = connectionFactory.createConnection();
+//		connection = connectionFactory.createConnection();
+        connection = connectionFactory.createConnection("karaf", "karaf");
 		connection.setClientID(clientId);
 
 		// create a Session
@@ -66,23 +68,30 @@ public class Consumer {
 		// read a message from the topic destination
 		Message message = messageConsumer.receive(timeout);
 
+		
+		if (!(message instanceof TextMessage))
+			throw new RuntimeException("no text message");
+		TextMessage tm = (TextMessage) message;
+//			System.out.println(tm.getText()); // print message
+		LOGGER.debug(clientId + ": received message with text='{}'", text);
+		
 		// check if a message was received
-		if (message != null) {
-			// cast the message to the correct type
-			TextMessage textMessage = (TextMessage) message;
-
-			// retrieve the message content
-			text = textMessage.getText();
-			LOGGER.debug(clientId + ": received message with text='{}'", text);
-
-			// create msg
-			// greeting = "Hello " + text + "!";
-		} else {
-			LOGGER.debug(clientId + ": no message received");
-		}
+//		if (message != null) {
+//			// cast the message to the correct type
+//			TextMessage textMessage = (TextMessage) message;
+//
+//			// retrieve the message content
+//			text = textMessage.getText();
+//			LOGGER.debug(clientId + ": received message with text='{}'", text);
+//
+//			// create msg
+//			// greeting = "Hello " + text + "!";
+//		} else {
+//			LOGGER.debug(clientId + ": no message received");
+//		}
 
 		LOGGER.info("greeting={}", text);
-		return text;
+		return tm.toString();
 	}
 
 	public void startListening(String clientId, String queueName) throws JMSException, InterruptedException {
@@ -93,7 +102,8 @@ public class Consumer {
 		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
 
 		// create a Connection
-		connection = connectionFactory.createConnection();
+//		connection = connectionFactory.createConnection();
+		connection = connectionFactory.createConnection("karaf", "karaf");
 		connection.setClientID(clientId);
 
 		// create a Session

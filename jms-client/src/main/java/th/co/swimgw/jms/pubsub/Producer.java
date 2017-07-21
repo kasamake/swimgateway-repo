@@ -5,6 +5,7 @@ import javax.jms.ConnectionFactory;
 import javax.jms.Destination;
 import javax.jms.JMSException;
 import javax.jms.MessageProducer;
+import javax.jms.ObjectMessage;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 
@@ -12,6 +13,8 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import th.co.aerothai.swimgw.models.Msgbox;
 
 public class Producer {
 
@@ -23,7 +26,8 @@ public class Producer {
     private Session session;
     private MessageProducer messageProducer;
     
-    private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
+//    private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
+	private static String url = "tcp://172.16.21.206:61616";
  // default broker URL is : tcp://localhost:61616"
     
     public void create(String clientId, String queueName) throws JMSException {
@@ -33,9 +37,9 @@ public class Producer {
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
 
         // create a Connection
-        connection = connectionFactory.createConnection();
+        connection = connectionFactory.createConnection("karaf", "karaf");
         connection.setClientID(clientId);
-
+        
         // create a Session
         session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 
@@ -61,5 +65,18 @@ public class Producer {
         messageProducer.send(textMessage);
 
         LOGGER.info(clientId + ": sent message with text='{}'", text);
+    }
+    
+    public void sendMessageMsgbox(Msgbox msgbox) throws JMSException {
+    	
+    	ObjectMessage objectMessage = session.createObjectMessage(msgbox);
+    	// create a JMS TextMessage
+//        TextMessage textMessage = session.createTextMessage(text);
+        
+     // send the message to the queue destination
+//        messageProducer.send(textMessage);
+    	messageProducer.send(objectMessage);
+
+//        LOGGER.info(clientId + ": sent message with text='{}'", text);
     }
 }

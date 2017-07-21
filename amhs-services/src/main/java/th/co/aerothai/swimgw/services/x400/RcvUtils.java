@@ -1072,12 +1072,13 @@ public class RcvUtils {
 			return msgBox;
 		}
 		
+		// we monitor only for VTBBSWIM, so we don't want envelope information (There would be only VTBBSWIM in an envelope)
 //		status = get_ms_recips(msmessage_obj, X400_att.X400_RECIP_ENVELOPE, "ENVELOPE");
-		msgBoxRecipients.addAll(get_ms_recips_list(msmessage_obj, X400_att.X400_RECIP_ENVELOPE, "ENVELOPE"));	
-		if (status != X400_att.X400_E_NOERROR && status != X400_att.X400_E_NO_RECIP) {
-			System.out.println("get_ms_recips failed (env)" + status);
-			return msgBox;
-		}
+//		msgBoxRecipients.addAll(get_ms_recips_list(msmessage_obj, X400_att.X400_RECIP_ENVELOPE, "ENVELOPE"));	
+//		if (status != X400_att.X400_E_NOERROR && status != X400_att.X400_E_NO_RECIP) {
+//			System.out.println("get_ms_recips failed (env)" + status);
+//			return msgBox;
+//		}
 		
 		// set alias name for origin, msgcc, msgbcc, msgto in MSGBOX
 		String origin = "";
@@ -1142,7 +1143,7 @@ public class RcvUtils {
 				System.out.println("x400_ms_recipget failed " + status);
 				break;
 			}
-
+  
 			System.out.println("-------------- Recipient " + recip_num + "--------------" + logstr);
 			// display recip name
 			paramtype = X400_att.X400_S_OR_ADDRESS;

@@ -924,7 +924,7 @@ public class SendUtils {
 		int status;
 
 		// Use the OR address used in the P7 bind as the recipient
-		String p7_sender = config.p7_bind_swim;
+		String p7_sender = config.p7_bind_yuaa;
 
 		// instantiate a message object, and make it an API object
 		// by opening an API session
@@ -946,10 +946,10 @@ public class SendUtils {
 		// config.p7_bind_oraddr, config.p7_bind_dn,
 		// config.p7_credentials, config.p7_pa, ret_psw, session_obj);
 		// } else {
-		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_swim
+		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_yuaa
 				+ " config.p7_bind_dn = " + config.p7_bind_dn + " config.p7_credentials = " + config.p7_credentials
 				+ " config.p7_pa = " + config.p7_pa);
-		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_swim, config.p7_bind_dn,
+		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_yuaa, config.p7_bind_dn,
 				config.p7_credentials, config.p7_pa, session_obj);
 		// }
 		if (status != X400_att.X400_E_NOERROR) {
@@ -2130,16 +2130,16 @@ public class SendUtils {
 		int status;
 
 		// Use the OR address used in the P7 bind as the recipient
-		String p7_sender = config.p7_bind_swim;
+		String p7_sender = config.p7_bind_yuaa;
 
 		// instantiate a message object, and make it an API object
 		// by opening an API session
 		Session session_obj = new Session();
 
-		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_swim
+		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_yuaa
 				+ " config.p7_bind_dn = " + config.p7_bind_dn + " config.p7_credentials = " + config.p7_credentials
 				+ " config.p7_pa = " + config.p7_pa);
-		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_swim, config.p7_bind_dn,
+		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_yuaa, config.p7_bind_dn,
 				config.p7_credentials, config.p7_pa, session_obj);
 
 		if (status != X400_att.X400_E_NOERROR) {
