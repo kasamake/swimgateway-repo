@@ -1,9 +1,13 @@
 package th.co.aerothai.swimgw.services.api;
 
 import java.util.List;
+
+import javax.ejb.Remote;
+
 import th.co.aerothai.swimgw.models.Msgbox;
 
-public abstract interface IX400Utils
+@Remote
+public abstract interface IRemoteX400Utils
 {
 //  public abstract int createSession(int paramInt);
   

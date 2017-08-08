@@ -10,7 +10,7 @@ public abstract interface IConvertorBean
   public abstract String convertMsgboxToFile(int id);
   public abstract String convertMsgboxToXml(Msgbox msgbox);
   public abstract Msgbox convertXMLFiletoMsgbox(String filename);
-  public abstract String convertMsgboxToJson(int id);
+//  public abstract String convertMsgboxToJson(int id);
   public abstract Msgbox convertXMLStringtoMsgbox(String xml);
 //  
 //  public abstract boolean addMsgbox(List<Msgbox> paramList);

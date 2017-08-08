@@ -10,18 +10,29 @@ import javax.jms.Connection;
 import javax.jms.JMSException;
 
 import th.co.aerothai.swimgw.jms.api.IConsumerBean;
+import th.co.aerothai.swimgw.jms.impl.MsgboxTimerBean;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @ManagedBean(name = "consumerManagedBean")
 @ViewScoped
 //@SessionScoped
 public class ConsumerManagedBean {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(ConsumerManagedBean.class);
 	String message;
 	String queueName;
 	Connection connection;
+//	Connection connectionAIXM;
+//	Connection connectionFIXM;
+//	Connection connectionWXXM;
+	
 	String status;
 	
+//	boolean aixm;
+//	boolean fixm;
+//	boolean wxxm;
 	@EJB
 	IConsumerBean consumerBean;
 	
@@ -30,6 +41,7 @@ public class ConsumerManagedBean {
 	  public void setup()
 	  {
 	    System.out.println("Setting up a consumer");
+	    LOGGER.info("+++++Test logger info+++++");
 	    this.message = "";
 	    this.queueName = "AMHS";
 	  }
@@ -45,7 +57,10 @@ public class ConsumerManagedBean {
 	public void startConnection() {
 //		consumer = new Consumer();
 		try {
+			LOGGER.info("+++++Test logger info connection+++++");
 			connection = consumerBean.createConnection("jms-client-consumer", queueName);
+			LOGGER.error("+++++Test logger info connection error+++++");
+			LOGGER.debug("+++++Test logger info connection debug+++++");
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -115,6 +130,5 @@ public class ConsumerManagedBean {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	
-	
+
 }

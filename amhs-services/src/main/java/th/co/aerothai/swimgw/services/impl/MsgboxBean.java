@@ -17,7 +17,6 @@ import th.co.aerothai.swimgw.models.Msgboxattachment;
 import th.co.aerothai.swimgw.services.api.IMsgboxBean;
 
 @Stateless
-@Local
 public class MsgboxBean
   implements IMsgboxBean
 {

@@ -58,12 +58,11 @@ public class ConvertorManagedBean {
 		return "convertor.xhtml";
 	}
 
-	public String convertToJsonString() {
-//		Msgbox msgbox = this.msgboxBean.getMsgbox(msgId);
-		this.jsonString = this.convertorBean.convertMsgboxToJson(msgId);
-
-		return "convertor.xhtml";
-	}
+//	public String convertToJsonString() {
+//		this.jsonString = this.convertorBean.convertMsgboxToJson(msgId);
+//
+//		return "convertor.xhtml";
+//	}
 	@PreDestroy
 	public void cleanUp() {
 		System.out.println("Cleaning up before destroying the JSF managed bean.");

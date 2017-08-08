@@ -20,6 +20,8 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
+import org.eclipse.persistence.oxm.annotations.XmlCDATA;
+
 @Entity
 @Table(name = "MSGBOX")
 @NamedQuery(name = "Msgbox.findAll", query = "SELECT m FROM Msgbox m")
@@ -65,6 +67,7 @@ public class Msgbox implements Serializable {
 	private String msgSecurity;
 	@Column(name = "MSG_SUBJECT")
 	private String msgSubject;
+	
 	@Column(name = "MSG_TEXT")
 	private String msgText;
 	@Column(name = "MSG_TO")
@@ -415,6 +418,7 @@ public class Msgbox implements Serializable {
 		return this.msgText;
 	}
 
+	@XmlCDATA
 	public void setMsgText(String msgText) {
 		this.msgText = msgText;
 	}
@@ -571,5 +575,8 @@ public class Msgbox implements Serializable {
 		this.msgboxattachmentList = msgboxattachmentList;
 	}
 	
-	
+	public String getMsgboxToSwimDetail() {
+		String detail = msgOrgn2+" -> " + msgTo + " (" + msgType + ")" + receivetime;
+		return detail;
+	}
 }

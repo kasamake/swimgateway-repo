@@ -17,6 +17,7 @@ import javax.validation.constraints.AssertTrue;
 
 import com.isode.x400api.X400_att;
 
+import th.co.aerothai.swimgw.jms.impl.MsgboxTimerBean;
 //import th.co.aerothai.swimgw.jndi.lookup.LookerUp;
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.models.Msgboxattachment;

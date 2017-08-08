@@ -25,6 +25,7 @@ import th.co.aerothai.swimgw.models.Msgboxattachment;
 import th.co.aerothai.swimgw.models.Msgboxrecipient;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.io.FileInputStream;
 import java.io.File;
 
@@ -1483,8 +1484,8 @@ public class SendUtils {
 //		String content_id = "030924.140219";
 //		 String latest_del_time = "170927120000Z";
 
-		String content_id = msgbox.getpContIdt();
-		String latest_del_time = msgbox.getpLatestdelivery();
+//		String content_id = msgbox.getpContIdt();
+//		String latest_del_time = msgbox.getpLatestdelivery();
 		// X400_N_CONTENT_LENGTH is probe only
 
 		// Priority: 0 - normal, 1 - non-urgent, 2 - urgent
@@ -1557,28 +1558,34 @@ public class SendUtils {
 		// }
 
 		// Content Identifier
-		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_CONTENT_IDENTIFIER,
-				content_id, content_id.length());
-		if (status != X400_att.X400_E_NOERROR) {
-			System.out.println("x400_ms_msgaddintparam failed " + status);
-			return status;
+		if(msgbox.getpContIdt()!=null){
+			status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_CONTENT_IDENTIFIER,
+					msgbox.getpContIdt(), msgbox.getpContIdt().length());
+			if (status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_msgaddintparam failed " + status);
+				return status;
+			}
 		}
+		
 
 //		 Latest Delivery Time: UTCTime format YYMMDDHHMMSS<zone>
-		 status =
-		 com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
-		 X400_att.X400_S_LATEST_DELIVERY_TIME, latest_del_time,
-		 latest_del_time.length());
-		 if (status != X400_att.X400_E_NOERROR) {
-		 System.out.println("x400_ms_msgaddintparam failed " + status);
-		 return status;
-		 }
+		if(msgbox.getpLatestdelivery()!=null){
+			 status =
+					 com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
+					 X400_att.X400_S_LATEST_DELIVERY_TIME, msgbox.getpLatestdelivery(),
+					 msgbox.getpLatestdelivery().length());
+					 if (status != X400_att.X400_E_NOERROR) {
+					 System.out.println("x400_ms_msgaddintparam failed " + status);
+					 return status;
+					 }
+		}
+
 
 		// Originator Return Address (X.400 String format)
 		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj,
 				X400_att.X400_S_ORIGINATOR_RETURN_ADDRESS, orig_ret_addr, orig_ret_addr.length());
 		if (status != X400_att.X400_E_NOERROR) {
-			System.out.println("x400_ms_msgaddintparam failed " + status);
+			System.out.println("x400_ms_msgaddintparam failed 3" + status);
 			return status;
 		}
 		return status;
@@ -1850,15 +1857,17 @@ public class SendUtils {
 		// int sensitivity = 3;
 		// int autoforwarded = 1;
 
-		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_IPM_IDENTIFIER, ipm_id,
-				ipm_id.length());
-		if (status != X400_att.X400_E_NOERROR) {
-			System.out.println("x400_ms_msgaddstrparam failed " + status);
-			return status;
-		}
+//		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_IPM_IDENTIFIER, ipm_id,
+//				ipm_id.length());
+//		if (status != X400_att.X400_E_NOERROR) {
+//			System.out.println("x400_ms_msgaddstrparam failed " + status);
+//			return status;
+//		}
 
+//		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_SUBJECT,
+//				msgBox.getMsgSubject(), -1);
 		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_S_SUBJECT,
-				msgBox.getMsgSubject(), -1);
+				msgBox.getMsgSubject(), msgBox.getMsgSubject().length());
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_msgaddstrparam failed " + status);
 			return status;
@@ -1932,9 +1941,13 @@ public class SendUtils {
 
 		// now add the attachments/bodyparts
 
+
 		// Add an IA5 attachment using AddStrParam
+//		new String(msgBox.getMsgText().getBytes(), "ASCII");
+
 		status = com.isode.x400api.X400ms.x400_ms_msgaddstrparam(msmessage_obj, X400_att.X400_T_IA5TEXT,
 				msgBox.getMsgText(), msgBox.getMsgText().length());
+
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_msgaddstrparam failed " + status);
 			return status;
@@ -2130,16 +2143,16 @@ public class SendUtils {
 		int status;
 
 		// Use the OR address used in the P7 bind as the recipient
-		String p7_sender = config.p7_bind_yuaa;
+		String p7_sender = config.p7_bind_swim;
 
 		// instantiate a message object, and make it an API object
 		// by opening an API session
 		Session session_obj = new Session();
 
-		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_yuaa
+		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + config.p7_bind_swim
 				+ " config.p7_bind_dn = " + config.p7_bind_dn + " config.p7_credentials = " + config.p7_credentials
 				+ " config.p7_pa = " + config.p7_pa);
-		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_yuaa, config.p7_bind_dn,
+		status = com.isode.x400api.X400ms.x400_ms_open(type, config.p7_bind_swim, config.p7_bind_dn,
 				config.p7_credentials, config.p7_pa, session_obj);
 
 		if (status != X400_att.X400_E_NOERROR) {

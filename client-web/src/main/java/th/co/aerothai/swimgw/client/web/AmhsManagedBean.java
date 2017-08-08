@@ -18,6 +18,7 @@ import javax.validation.constraints.AssertTrue;
 
 import com.isode.x400api.X400_att;
 
+import th.co.aerothai.swimgw.jms.impl.MsgboxTimerBean;
 //import th.co.aerothai.swimgw.jndi.lookup.LookerUp;
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.models.Msgboxattachment;
@@ -145,18 +146,18 @@ public class AmhsManagedBean {
 		return msgBox;
 	}
 
-	public void startReceivingMessage() throws NamingException, JMSException {
+	public void startReceivingMessage() throws NamingException {
 
 		this.status = "Service started";
 		timerBean.openConnection();
-		timerBean.setRunning(true);
+//		timerBean.setRunning(true);
 
 //		return "amhs_receiver.xhtml";
 	}
 	
 	public void stopReceivingMessage() throws NamingException, JMSException {
 		this.status = "Service stopped";
-		timerBean.setRunning(false);
+//		timerBean.setRunning(false);
 		timerBean.closeConnection();
 //		return "amhs_receiver.xhtml";
 	}

@@ -2289,7 +2289,7 @@ public class RcvUtils {
 			msgBoxAttachment.setFilesize(textBytes.length);
 			msgBoxAttachment.setFiletype(int_value);
 			msgBoxAttachment.setBfile(textBytes);
-			msgBoxAttachment.setFilename("IA5 TEXT");
+			msgBoxAttachment.setFilename("IA5 Text");
 			msgBoxAttachments.add(msgBoxAttachment);
 			break;
 		default:

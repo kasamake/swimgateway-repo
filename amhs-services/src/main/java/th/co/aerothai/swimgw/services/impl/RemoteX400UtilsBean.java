@@ -16,8 +16,9 @@ import th.co.aerothai.swimgw.services.api.IX400Utils;
 import th.co.aerothai.swimgw.services.x400.RcvUtils;
 import th.co.aerothai.swimgw.services.x400.SendUtils;
 
-@Stateless
-public class X400UtilsBean implements IX400Utils {
+@Stateless(name="RemoteX400UtilsBean")
+@Remote(IRemoteX400Utils.class)
+public class RemoteX400UtilsBean implements IRemoteX400Utils {
 	// public int createSession(int type)
 	// {
 	// System.out.println("Create Session");
