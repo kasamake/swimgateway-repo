@@ -51,4 +51,10 @@ public class X400UtilsBean implements IX400Utils {
 		// TODO Auto-generated method stub
 		return SendUtils.send_msg(null, msgbox);
 	}
+
+	@Override
+	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) {
+		// TODO Auto-generated method stub
+		return RcvUtils.getMsgboxBeanList(or, dn, pa, credential);
+	}
 }

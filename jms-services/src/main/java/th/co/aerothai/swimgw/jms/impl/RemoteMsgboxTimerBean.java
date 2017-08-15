@@ -44,6 +44,15 @@ public class RemoteMsgboxTimerBean implements IRemoteMsgboxTimerBean{
 
     private boolean running;
     
+    private String or;
+    private String dn;
+    private String pa;
+    private String credential;
+    private String broker;
+    private String client;
+    private String username;
+    private String password;
+    
 //    private Producer producer;
     private Producer producerAIXM;
     private Producer producerFIXM;
@@ -57,13 +66,13 @@ public class RemoteMsgboxTimerBean implements IRemoteMsgboxTimerBean{
         LOGGER.debug("Debug: Open Connections to ActiveMQ -- AIXM/FIXM/WXXM");
         try {
             producerAIXM = new Producer();
-			producerAIXM.create("jms-client-producer-aixm", "AMHS2AIXM");
+			producerAIXM.create(broker,client+"-producer-aixm",username,password, "AMHS2AIXM");
 			producerFIXM = new Producer();
-			producerFIXM.create("jms-client-producer-fixm", "AMHS2FIXM");
+			producerFIXM.create(broker,client+"-producer-fixm",username,password, "AMHS2FIXM");
 			producerWXXM = new Producer();
-			producerWXXM.create("jms-client-producer-wxxm", "AMHS2WXXM");
+			producerWXXM.create(broker,client+"-producer-wxxm",username,password, "AMHS2WXXM");
 			
-			setRunning(true);
+//			setRunning(true);
 		} catch (JMSException e) {
 			LOGGER.error("Producers cannot be created", e);
 			try {
@@ -73,13 +82,15 @@ public class RemoteMsgboxTimerBean implements IRemoteMsgboxTimerBean{
 			} catch (JMSException e1) {
 				// do nothing
 			}
-		} 
+		}
+        setRunning(true);
 
     }
     
     public void closeConnection() {
 //    	producer.closeConnection();
     	LOGGER.info("Close Connections to ActiveMQ -- AIXM/FIXM/WXXM");
+    	setRunning(false);
     	try {
 			producerAIXM.closeConnection();
 		} catch (JMSException e) {
@@ -111,7 +122,7 @@ public class RemoteMsgboxTimerBean implements IRemoteMsgboxTimerBean{
                 System.out.println("Timer work started");
                 
                 //main task to do
-                List<Msgbox> msgboxes = this.x400Utils.getMsgBoxBeanList();
+                List<Msgbox> msgboxes = this.x400Utils.getMsgBoxBeanList(this.or, this.dn, this.pa, this.credential);
                 
                 if(msgboxes.size()>0){
        
@@ -241,5 +252,38 @@ public class RemoteMsgboxTimerBean implements IRemoteMsgboxTimerBean{
 		this.running = running;
 	}
 
+	public void setOr(String or) {
+		this.or = or;
+	}
+
+	public void setDn(String dn) {
+		this.dn = dn;
+	}
+
+	public void setPa(String pa) {
+		this.pa = pa;
+	}
+
+	public void setCredential(String credential) {
+		this.credential = credential;
+	}
+
+	public void setBroker(String broker) {
+		this.broker = broker;
+	}
+
+	public void setClient(String client) {
+		this.client = client;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	
     
 }

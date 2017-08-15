@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="340.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="th.co.aerothai.swimgw.client.javafx.AmhsMessageController">
+   <children>
+      <BorderPane prefHeight="340.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <Label prefHeight="36.0" prefWidth="196.0" text="Gateway Setup" BorderPane.alignment="TOP_LEFT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="5.0" top="5.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <TabPane prefHeight="320.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+              <tabs>
+                <Tab text="AMHS">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <GridPane hgap="10.0" maxWidth="-Infinity" prefWidth="650.0" vgap="10.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="130.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="130.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="ORAddress:" />
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="DN:" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin>
+                                    </Label>
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Presentation Address:" GridPane.rowIndex="2" />
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Password:" GridPane.rowIndex="3" />
+                                    <TextField fx:id="orAdress" text="CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/" GridPane.columnIndex="1" />
+                                    <TextField fx:id="dn" prefHeight="25.0" prefWidth="313.0" text="c=TH" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextField fx:id="pa" prefHeight="25.0" prefWidth="313.0" text="&quot;3001&quot;/URI+0000+URL+itot://172.16.21.134:3001" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <PasswordField fx:id="credential" prefHeight="25.0" prefWidth="313.0" GridPane.columnIndex="1" GridPane.rowIndex="3" text="secret"/>
+                                 </children>
+                                 <padding>
+                                    <Insets left="20.0" top="20.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="EJB">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <GridPane hgap="10.0" maxWidth="-Infinity" prefWidth="650.0" vgap="10.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="130.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="130.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Broker name:" />
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Client ID:" GridPane.rowIndex="1" />
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Username:" GridPane.rowIndex="2" />
+                                    <Label prefHeight="35.0" prefWidth="163.0" text="Password:" GridPane.rowIndex="3" />
+                                    <TextField fx:id="broker" text="tcp://172.16.21.206:61616" GridPane.columnIndex="1" />
+                                    <TextField fx:id="client" prefHeight="25.0" prefWidth="313.0" text="jms-client" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <TextField fx:id="username" prefHeight="25.0" prefWidth="313.0" GridPane.columnIndex="1" GridPane.rowIndex="2" text="karaf"/>
+                                    <PasswordField fx:id="password" prefHeight="25.0" prefWidth="313.0" GridPane.columnIndex="1" GridPane.rowIndex="3" text="karaf"/>
+                                 </children>
+                                 <padding>
+                                    <Insets left="20.0" top="20.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" onAction="#startReceivingMessage" text="Start" />
+                  <Button mnemonicParsing="false" onAction="#stopReceivingMessage" text="Stop" textAlignment="CENTER" />
+              </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

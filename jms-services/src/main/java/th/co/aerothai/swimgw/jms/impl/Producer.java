@@ -54,6 +54,32 @@ public class Producer {
 		messageProducer = session.createProducer(destination);
 	}
 
+	public void create(String broker, String client, String username, String password, String queueName) throws JMSException {
+
+		System.out.println("Create connection from JavaFx");
+		
+		LOGGER.info(client + ": create connection to '{}'", queueName);
+		
+		// create a Connection Factory
+		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker);
+
+		// create a Connection
+		connection = connectionFactory.createConnection(username, password);
+		connection.setClientID(client);
+
+		// create a Session
+		session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
+		// Create the destination (Topic or Queue)
+		Destination destination = session.createQueue(queueName);
+
+		// create the Topic to which messages will be sent
+		// Topic topic = session.createTopic(topicName);
+
+		// create a MessageProducer for sending messages
+		messageProducer = session.createProducer(destination);
+	}
+	
 	public void closeConnection() throws JMSException {
 		connection.close();
 	}

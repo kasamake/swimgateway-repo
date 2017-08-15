@@ -376,6 +376,176 @@ public class RcvUtils {
 //		return;
 	}
 	
+	public static List<Msgbox> getMsgboxBeanList(String or, String dn, String pa, String credential) {
+
+		Session session_obj = new Session();
+		int type = 0;
+		int paramtype;
+		int close_status;
+		
+		// Open Connection x400
+		int status = com.isode.x400api.X400ms.x400_ms_open(type, or, dn,
+				credential, config.p7_pa, session_obj);
+		System.out.println("***x400_ms_open Status: " + status);
+		MSListResult mslistresult_obj = new MSListResult();
+		status = com.isode.x400api.X400ms.x400_ms_list(session_obj, null,
+				// "040101000000Z", // (optional) Time since when to list
+				// messages - UTC time string, and is used to select only
+				// messages which were delivered after that time & date
+				mslistresult_obj);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_list failed " + status);
+			// close the API session
+			close_status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
+			if (close_status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_close failed " + status);
+				return null;
+			}
+			System.out.println("Closed MS Session successfully\n");
+			return null;
+		}
+		System.out.println("Opened MS session successfully, " + session_obj.GetNumMsgs() + " messages waiting");
+		List<Msgbox> msgBoxs = new ArrayList<>();
+		
+		for (int i = 1;; i++) {
+			
+			Msgbox msgBox = new Msgbox();
+			paramtype = X400_att.X400_N_MS_SEQUENCE_NUMBER;
+			status = com.isode.x400api.X400ms.x400_ms_listgetintparam(mslistresult_obj, paramtype, i);
+
+			if (status == X400_att.X400_E_NO_MORE_RESULTS) {
+				System.out.println("No more list results, i = " + i);
+				// All done
+				break;
+			}
+			int seq = mslistresult_obj.GetIntValue();
+			
+			msgBox.setMsgsqn(seq);
+
+			System.out.println("Receiving message " + i);
+			System.out.println("=================================================");
+			System.out.println("Sequence number: " + mslistresult_obj.GetIntValue());
+
+			StringBuffer ret_value = new StringBuffer();
+			paramtype = X400_att.X400_S_SUBJECT;
+			status = com.isode.x400api.X400ms.x400_ms_listgetstrparam(mslistresult_obj, paramtype, i, ret_value);
+			System.out.println("Subject ret_value (" + i + ") : " + ret_value.toString());
+			msgBox.setMsgSubject(ret_value.toString());
+			
+			// instantiate a message object, and retrieve a msg
+			// putting it into an API object
+			MSMessage msmessage_obj = new MSMessage();
+			// use seqn of 0 to retrieve the next msg
+			status = com.isode.x400api.X400ms.x400_ms_msggetstart(session_obj, mslistresult_obj.GetIntValue(),
+					msmessage_obj);
+			if (status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_msggetstart failed " + status);
+				// close the API session
+				status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
+				if (status != X400_att.X400_E_NOERROR) {
+					System.out.println("x400_ms_close failed " + status);
+					return null;
+				}
+				System.out.println("Closed MS Session successfully\n");
+				return null;
+			}
+
+			// check what we got back
+			type = msmessage_obj.GetType();
+			if (type == X400_att.X400_MSG_MESSAGE) {
+				int int_value;
+
+				// got a message - is it an IPN ?
+				System.out.println("Retrieved MS Message successfully - displaying");
+				paramtype = X400_att.X400_N_IS_IPN;
+				status = com.isode.x400api.X400ms.x400_ms_msggetintparam(msmessage_obj, paramtype);
+				if (status != X400_att.X400_E_NOERROR) {
+					System.out.println("failed to test whether IPN or message " + status);
+				} else {
+					int_value = msmessage_obj.GetIntValue();
+					if (int_value != 0) {
+						// It's an IPN ...
+						System.out.println("Retrieved IPN successfully - displaying");
+						msgBox = do_msg_env(msmessage_obj, msgBox);
+						msgBox = do_msg_headers(msmessage_obj, msgBox);
+						/*
+						 * the content can be retrieved as attachments or
+						 * bodyparts. Use do_msg_content for the former
+						 */
+//						status = BodyPartRcvUtils.do_msg_content_as_bp(msmessage_obj);
+						msgBox = BodyPartRcvUtils.do_msg_content_as_bp(msmessage_obj, msgBox);
+						status = msgBox.getStatus();
+					} else {
+						// It's not an IPN ...
+						System.out.println("Retrieved msg (not ipn) successfully - displaying");
+						msgBox = do_msg_env(msmessage_obj, msgBox);
+						msgBox = do_msg_headers(msmessage_obj, msgBox);
+						/*
+						 * the content can be retrieved as attachments or
+						 * bodyparts. Use do_msg_content for the former
+						 */
+//						status = BodyPartRcvUtils.do_msg_content_as_bp(msmessage_obj);
+						msgBox = BodyPartRcvUtils.do_msg_content_as_bp(msmessage_obj, msgBox);
+						status = msgBox.getStatus();
+//						get_p772(msmessage_obj);
+						// Send back an IPN to the originator (if requested)
+						// -1 means positive
+						status = send_ipn(msmessage_obj, -1);
+					}
+				}
+			} 
+			
+//			else if (type == X400_att.X400_MSG_REPORT) {
+//				System.out.println("Retrieved MS Report successfully - displaying");
+//				status = ReportRcvUtils.do_rep_env(msmessage_obj);
+//				status = ReportRcvUtils.do_rep_content(msmessage_obj);
+//				status = ReportRcvUtils.do_rep_retcontent(msmessage_obj);
+//			} else if (type == X400_att.X400_MSG_PROBE) {
+//				// Not handling a probe here
+//				System.out.println("Retrieved MS Report successfully - not displaying");
+//			} else {
+//				// Unknown object
+//				System.out.println("Retrieved unknown message type " + type);
+//			}
+
+			status = com.isode.x400api.X400ms.x400_ms_msggetfinish(msmessage_obj, 0, 0);
+			System.out.println("=================================================");
+			msgBoxs.add(msgBox);
+//			ApplicationClient.latestSequence = msgBox.getMsgsqn();
+			
+//			 delete the API msg object and from the Store
+			 status = com.isode.x400api.X400ms.x400_ms_msgdel(msmessage_obj, 0);
+			if (status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_msgget failed " + status);
+				return msgBoxs;
+			}
+
+			
+			if (status != X400_att.X400_E_NOERROR) {
+				System.out.println("x400_ms_msggetfinish failed " + status);
+				// close the API session
+				status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
+				if (status != X400_att.X400_E_NOERROR) {
+					System.out.println("x400_ms_close failed " + status);
+					return msgBoxs;
+				}
+				System.out.println("Closed Session successfully\n");
+				return msgBoxs;
+			}
+		}
+
+
+		// close the API session
+		status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_close failed " + status);
+			return msgBoxs;
+		}
+		System.out.println("Closed Session successfully\n");
+		return msgBoxs;
+//		return;
+	}
+	
 //	public static void rcv_all_msg(String[] args) {
 //
 //		Session session_obj = new Session();

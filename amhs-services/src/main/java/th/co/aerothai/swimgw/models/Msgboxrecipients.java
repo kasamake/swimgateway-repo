@@ -1,5 +1,6 @@
 package th.co.aerothai.swimgw.models;
 
+import java.io.Serializable;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +10,13 @@ import javax.xml.bind.annotation.XmlRootElement;
  
 @XmlRootElement(name = "msgboxrecipients")
 @XmlAccessorType (XmlAccessType.FIELD)
-public class Msgboxrecipients 
+public class Msgboxrecipients implements Serializable
 {
-    @XmlElement(name = "msgboxrecipient")
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@XmlElement(name = "msgboxrecipient")
     private List<Msgboxrecipient> msgboxrecipients = null;
  
     public List<Msgboxrecipient> getMsgboxrecipients() {

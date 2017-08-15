@@ -2207,4 +2207,72 @@ public class SendUtils {
 		return status;
 	}
 
+	public static int send_msg(Msgbox msgBox, String or, String dn, String pa, String credential) {
+		int type = 0;
+		int status;
+
+		// Use the OR address used in the P7 bind as the recipient
+		String p7_sender = or;
+
+		// instantiate a message object, and make it an API object
+		// by opening an API session
+		Session session_obj = new Session();
+
+		System.out.println("Open connection using open," + " config.p7_bind_oraddr = " + or
+				+ " config.p7_bind_dn = " + dn + " config.p7_credentials = " + credential
+				+ " config.p7_pa = " + pa);
+		status = com.isode.x400api.X400ms.x400_ms_open(type, or, dn,
+				credential, pa, session_obj);
+
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_open failed " + status);
+			return status;
+		}
+		System.out.println("Opened MS session successfully");
+
+		// turn on all logging for this session
+		status = com.isode.x400api.X400ms.x400_ms_setstrdefault(session_obj, X400_att.X400_S_LOG_CONFIGURATION_FILE,
+				"x400api.xml", -1);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_setstrdefault failed " + status);
+			return status;
+		}
+
+		// instantiate a message object, and make it an API object
+		MSMessage msmessage_obj = new MSMessage();
+		// if (config.building_simple_message) {
+		// status = build_simple_msmsg(session_obj, msmessage_obj, p7_sender);
+		// } else {
+		status = build_msmsg(session_obj, msmessage_obj, p7_sender, msgBox);
+		// }
+		if (status != X400_att.X400_E_NOERROR) {
+			return status;
+		}
+
+		// Set up a default security env so we can sign messages
+		// if (config.building_signed_message) {
+		// status = X400msTestSignUtils.setup_default_sec_env(session_obj,
+		// config.sec_id, config.sec_id_dn, config.sec_pphr);
+		// if (status != X400_att.X400_E_NOERROR) {
+		// return;
+		// }
+		// }
+
+		// message all assembled - submit it
+		status = com.isode.x400api.X400ms.x400_ms_msgsend(msmessage_obj);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_msgsend failed " + status);
+			return status;
+		}
+		System.out.println("Submitted message successfully**");
+
+		// close the API session
+		status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
+		if (status != X400_att.X400_E_NOERROR) {
+			System.out.println("x400_ms_close failed " + status);
+			return status;
+		}
+		System.out.println("Closed MS Session successfully\n");
+		return status;
+	}
 }

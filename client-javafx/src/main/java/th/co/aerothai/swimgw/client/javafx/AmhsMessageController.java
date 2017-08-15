@@ -6,6 +6,8 @@ import javax.ejb.EJB;
 import javax.xml.registry.infomodel.EmailAddress;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.services.api.IX400Utils;
 
@@ -16,7 +18,30 @@ public class AmhsMessageController {
     
     // Reference to the main application.
     private AppClient appClient;
+    
+    @FXML
+    private TextField orAdress;
+    
+    @FXML
+    private TextField dn;
 
+    @FXML
+    private TextField pa;
+    
+    @FXML
+    private PasswordField credential;
+    
+    @FXML
+    private TextField broker;
+    
+    @FXML
+    private TextField client;
+
+    @FXML
+    private TextField username;
+    
+    @FXML
+    private PasswordField password;
     /**
      * The constructor.
      * The constructor is called before the initialize() method.
@@ -47,8 +72,10 @@ public class AmhsMessageController {
     @FXML
     private void startReceivingMessage() {
         System.out.println("Start Receiving Message");
+        System.out.println("Credential: "+credential.getText());
         try {
-			EJBClient.startReceivingMessage();
+			EJBClient.startReceivingMessage(orAdress.getText(), dn.getText(), pa.getText(), credential.getText(),
+					broker.getText(), client.getText(), username.getText(), password.getText());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

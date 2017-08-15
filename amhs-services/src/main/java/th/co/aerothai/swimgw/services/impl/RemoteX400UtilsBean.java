@@ -52,4 +52,16 @@ public class RemoteX400UtilsBean implements IRemoteX400Utils {
 		// TODO Auto-generated method stub
 		return SendUtils.send_msg(null, msgbox);
 	}
+	
+
+	@Override
+	public int sendMsgbox(Msgbox msgbox,String or, String dn, String pa, String credential) {
+		// TODO Auto-generated method stub
+		return SendUtils.send_msg(msgbox, or, dn, pa, credential);
+	}
+	@Override
+	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) {
+		// TODO Auto-generated method stub
+		return RcvUtils.getMsgboxBeanList(or, dn, pa, credential);
+	}
 }

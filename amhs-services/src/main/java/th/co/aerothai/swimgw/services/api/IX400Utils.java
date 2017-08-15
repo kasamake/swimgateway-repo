@@ -16,4 +16,6 @@ public abstract interface IX400Utils
   public abstract List<Msgbox> getMsgBoxBeanList();
   
   public abstract int sendMsgbox(Msgbox msgbox);
+  
+  public abstract List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential);
 }

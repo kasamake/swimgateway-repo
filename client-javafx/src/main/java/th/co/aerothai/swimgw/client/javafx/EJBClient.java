@@ -1,16 +1,33 @@
 package th.co.aerothai.swimgw.client.javafx;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Properties;
+
+import javax.jms.Connection;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 
+import th.co.aerothai.swimgw.jms.api.IRemoteConsumerBean;
 import th.co.aerothai.swimgw.jms.api.IRemoteMsgboxTimerBean;
 import th.co.aerothai.swimgw.jms.impl.RemoteMsgboxTimerBean;
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.services.api.IRemoteX400Utils;
 
-public class EJBClient {
+public class EJBClient{
+	
+	/**
+	 * 
+	 */
+
+	static Connection connection;
+	static String moduleName = "client-web";
+	static String beanNameAMHSToSWIM = "RemoteMsgboxTimerBean";
+	static String beanNameSWIMToAMHS = "RemoteConsumerBean";
+	static String interfaceQualifiedNameAMHSToSWIM = IRemoteMsgboxTimerBean.class.getName();
+	static String interfaceQualifiedNameSWIMToAMHS = IRemoteConsumerBean.class.getName();
+	
+	
 	public static Properties getProperty(String _userName, String _password) {
 
 		Properties jndiProperties = new Properties();
@@ -31,21 +48,6 @@ public class EJBClient {
 		return ic;
 	}
 
-	// public static boolean authenticate(String _userName, String _password)
-	// throws Exception {
-	// System.out.println("Initializing property");
-	// Properties p = EJBClient.getProperty(_userName, _password);
-	// InitialContext ic = EJBClient.getInitialContext(p);
-	// System.out.println("InitialContext Obtained");
-	// com.incept.LoginFXIntf rem = (com.incept.LoginFXIntf)
-	// ic.lookup("java:global/Login/LoginFXBean");
-	// // or you can do lookup by fully qualified class name as
-	// //com.incept.LoginFXIntf rem = (com.incept.LoginFXIntf)
-	// ic.lookup("com.incept.LoginFXIntf");
-	// boolean result = rem.loginClicked(_userName, _password);
-	// System.out.println("Result of authentication:"+ result);
-	// return result;
-	// }
 	public static List<Msgbox> receiveMessage() throws Exception {
 		System.out.println("Initializing property");
 		Properties p = EJBClient.getProperty("", "");
@@ -70,27 +72,36 @@ public class EJBClient {
 		return msgboxes;
 	}
 
-	public static void startReceivingMessage() throws Exception {
+	public static void startReceivingMessage(String or, String dn, String pa, String credential,
+			String broker, String client, String username, String password) throws Exception {
 		System.out.println("Initializing property");
 		Properties p = EJBClient.getProperty("", "");
 		InitialContext ic = EJBClient.getInitialContext(p);
 		System.out.println("InitialContext Obtained");
-
-		String moduleName = "client-web";
-		String beanName = "RemoteMsgboxTimerBean";
-		String interfaceQualifiedName = IRemoteMsgboxTimerBean.class.getName();
-
-		IRemoteMsgboxTimerBean msgboxTimerBean = (IRemoteMsgboxTimerBean) ic.lookup(moduleName + "/" + beanName + "!" + interfaceQualifiedName);
+		IRemoteConsumerBean consumerBean = (IRemoteConsumerBean) ic.lookup(moduleName + "/" + beanNameSWIMToAMHS + "!" + interfaceQualifiedNameSWIMToAMHS);
+		
+		IRemoteMsgboxTimerBean msgboxTimerBean = (IRemoteMsgboxTimerBean) ic.lookup(moduleName + "/" + beanNameAMHSToSWIM + "!" + interfaceQualifiedNameAMHSToSWIM);
+		msgboxTimerBean.setOr(or);
+		msgboxTimerBean.setDn(dn);
+		msgboxTimerBean.setPa(pa);
+		msgboxTimerBean.setCredential(credential);
+		msgboxTimerBean.setBroker(broker);
+		msgboxTimerBean.setClient(client);
+		msgboxTimerBean.setUsername(username);
+		msgboxTimerBean.setPassword(password);
 		msgboxTimerBean.openConnection();
-//		List<Msgbox> msgboxes = x400Utils.getMsgBoxBeanList();
-//		if (msgboxes.size() != 0) {
-//			System.out.println("Number of messages: " + msgboxes.size());
-//			System.out.println("Lastest sequence: " + msgboxes.get(msgboxes.size() - 1).getMsgsqn().intValue());
-//
-//		} else {
-//			System.out.println("No messages found");
-//		}
-//		return msgboxes;
+
+		
+		consumerBean.setOr(or);
+		consumerBean.setDn(dn);
+		consumerBean.setPa(pa);
+		consumerBean.setCredential(credential);
+		consumerBean.setBroker(broker);
+		consumerBean.setClient(client);
+		consumerBean.setUsername(username);
+		consumerBean.setPassword(password);
+		consumerBean.startListening();
+		
 	}
 	
 	public static void stopReceivingMessage() throws Exception {
@@ -99,12 +110,13 @@ public class EJBClient {
 		InitialContext ic = EJBClient.getInitialContext(p);
 		System.out.println("InitialContext Obtained");
 
-		String moduleName = "client-web";
-		String beanName = "RemoteMsgboxTimerBean";
-		String interfaceQualifiedName = IRemoteMsgboxTimerBean.class.getName();
+//		String interfaceQualifiedName = IRemoteMsgboxTimerBean.class.getName();
 
-		IRemoteMsgboxTimerBean msgboxTimerBean = (IRemoteMsgboxTimerBean) ic.lookup(moduleName + "/" + beanName + "!" + interfaceQualifiedName);
+		IRemoteMsgboxTimerBean msgboxTimerBean = (IRemoteMsgboxTimerBean) ic.lookup(moduleName + "/" + beanNameAMHSToSWIM + "!" + interfaceQualifiedNameAMHSToSWIM);
 		msgboxTimerBean.closeConnection();
+		
+		IRemoteConsumerBean consumerBean = (IRemoteConsumerBean) ic.lookup(moduleName + "/" + beanNameSWIMToAMHS + "!" + interfaceQualifiedNameSWIMToAMHS);
+		consumerBean.closeConnection();
 //		List<Msgbox> msgboxes = x400Utils.getMsgBoxBeanList();
 //		if (msgboxes.size() != 0) {
 //			System.out.println("Number of messages: " + msgboxes.size());
