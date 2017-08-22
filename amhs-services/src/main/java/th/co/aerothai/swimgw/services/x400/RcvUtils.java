@@ -376,7 +376,7 @@ public class RcvUtils {
 //		return;
 	}
 	
-	public static List<Msgbox> getMsgboxBeanList(String or, String dn, String pa, String credential) {
+	public static List<Msgbox> getMsgboxBeanList(String or, String dn, String pa, String credential) throws Exception {
 
 		Session session_obj = new Session();
 		int type = 0;
@@ -386,7 +386,7 @@ public class RcvUtils {
 		// Open Connection x400
 		int status = com.isode.x400api.X400ms.x400_ms_open(type, or, dn,
 				credential, config.p7_pa, session_obj);
-		System.out.println("***x400_ms_open Status: " + status);
+
 		MSListResult mslistresult_obj = new MSListResult();
 		status = com.isode.x400api.X400ms.x400_ms_list(session_obj, null,
 				// "040101000000Z", // (optional) Time since when to list
@@ -399,10 +399,12 @@ public class RcvUtils {
 			close_status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
 			if (close_status != X400_att.X400_E_NOERROR) {
 				System.out.println("x400_ms_close failed " + status);
-				return null;
+				throw new Exception("MS Session connection failed");
+//				return null;
 			}
 			System.out.println("Closed MS Session successfully\n");
-			return null;
+			throw new Exception("MS Session connection failed");
+//			return null;
 		}
 		System.out.println("Opened MS session successfully, " + session_obj.GetNumMsgs() + " messages waiting");
 		List<Msgbox> msgBoxs = new ArrayList<>();
@@ -2623,5 +2625,15 @@ public class RcvUtils {
 		}
 		return X400_att.X400_E_NOERROR;
 
+	}
+	
+	public static int testConnection(String or, String dn, String pa, String credential){
+		Session session_obj = new Session();
+		int type = 0;
+		int open_status = com.isode.x400api.X400ms.x400_ms_open(type, or, dn,
+				credential, config.p7_pa, session_obj);
+		com.isode.x400api.X400ms.x400_ms_close(session_obj);
+		
+		return open_status;
 	}
 }

@@ -17,7 +17,7 @@ public class ConsoleController {
 	
     // Reference to the main application.
     private AppClient appClient;
-    private Logger logger = Logger.getLogger(ConsoleController.class);
+    Logger logger = Logger.getLogger(ConsoleController.class);
     /**
      * The constructor.
      * The constructor is called before the initialize() method.
@@ -48,7 +48,9 @@ public class ConsoleController {
     @FXML
     private void addTestMessage() {
         System.out.println("addTestMessage");
-        logger.info("Add add add logger info");
+        logger.info("Test adding info");
+        logger.error("Test adding error long long long long long long long long long long long long long"
+        		+ " long long long long long long long long");
     }
  
     

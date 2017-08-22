@@ -19,4 +19,5 @@ public interface IRemoteConsumerBean {
 	public abstract void setClient(String client);
 	public abstract void setUsername(String username);
 	public abstract void setPassword(String password);
+	boolean testConnection(String broker, String client, String username, String password);
 }

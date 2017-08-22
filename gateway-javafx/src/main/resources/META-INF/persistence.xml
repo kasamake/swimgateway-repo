@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" 
+	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="jpa-swimgw" transaction-type="RESOURCE_LOCAL">
+		<class>th.co.aerothai.swimgw.models.Msgbox</class>
+		<class>th.co.aerothai.swimgw.models.Msgboxattachment</class>
+		<class>th.co.aerothai.swimgw.models.Msgboxrecipient</class>
+		<properties>
+		
+			<property name="javax.persistence.jdbc.driver"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW" />
+			<property name="javax.persistence.jdbc.user" value="mstore" />
+			<property name="javax.persistence.jdbc.password" value="mstore" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+			<property name="show_sql" value="true" />
+			<property name="hibernate.temp.use_jdbc_metadata_defaults"
+				value="false" />
+		</properties>
+	</persistence-unit>
+</persistence>

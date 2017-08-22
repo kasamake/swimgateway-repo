@@ -1,6 +1,7 @@
 package th.co.aerothai.swimgw.services.impl;
 
 import com.isode.x400api.Session;
+import com.isode.x400api.X400_att;
 import com.isode.x400api.X400ms;
 import java.io.PrintStream;
 import java.util.List;
@@ -16,7 +17,7 @@ import th.co.aerothai.swimgw.services.api.IX400Utils;
 import th.co.aerothai.swimgw.services.x400.RcvUtils;
 import th.co.aerothai.swimgw.services.x400.SendUtils;
 
-@Stateless(name="RemoteX400UtilsBean")
+@Stateless(name = "RemoteX400UtilsBean")
 @Remote(IRemoteX400Utils.class)
 public class RemoteX400UtilsBean implements IRemoteX400Utils {
 	// public int createSession(int type)
@@ -52,16 +53,24 @@ public class RemoteX400UtilsBean implements IRemoteX400Utils {
 		// TODO Auto-generated method stub
 		return SendUtils.send_msg(null, msgbox);
 	}
-	
 
 	@Override
-	public int sendMsgbox(Msgbox msgbox,String or, String dn, String pa, String credential) {
+	public int sendMsgbox(Msgbox msgbox, String or, String dn, String pa, String credential) {
 		// TODO Auto-generated method stub
 		return SendUtils.send_msg(msgbox, or, dn, pa, credential);
 	}
+
 	@Override
-	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) {
+	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) throws Exception {
 		// TODO Auto-generated method stub
 		return RcvUtils.getMsgboxBeanList(or, dn, pa, credential);
+	}
+
+	@Override
+	public boolean testConnection(String or, String dn, String pa, String credential) {
+		if (RcvUtils.testConnection(or, dn, pa, credential) == X400_att.X400_E_NOERROR) {
+			return true;
+		}
+		return false;
 	}
 }

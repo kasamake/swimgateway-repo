@@ -27,7 +27,10 @@ public class EJBClient{
 	static String interfaceQualifiedNameAMHSToSWIM = IRemoteMsgboxTimerBean.class.getName();
 	static String interfaceQualifiedNameSWIMToAMHS = IRemoteConsumerBean.class.getName();
 	
+	static Monitor monitor;
+	static Thread t1;
 	
+	static int isConnected;
 	public static Properties getProperty(String _userName, String _password) {
 
 		Properties jndiProperties = new Properties();
@@ -74,6 +77,11 @@ public class EJBClient{
 
 	public static void startReceivingMessage(String or, String dn, String pa, String credential,
 			String broker, String client, String username, String password) throws Exception {
+		
+		monitor = new Monitor(or, dn, pa, credential, broker, client, username, password);
+		t1 = new Thread(monitor, "T1"); 
+		t1.start();
+
 		System.out.println("Initializing property");
 		Properties p = EJBClient.getProperty("", "");
 		InitialContext ic = EJBClient.getInitialContext(p);
@@ -89,22 +97,30 @@ public class EJBClient{
 		msgboxTimerBean.setClient(client);
 		msgboxTimerBean.setUsername(username);
 		msgboxTimerBean.setPassword(password);
-		msgboxTimerBean.openConnection();
+		int isConnected = msgboxTimerBean.openConnection();
+		
+		System.out.println("IS CONNECTED: "+isConnected);
+
+		if(isConnected ==0){
+			consumerBean.setOr(or);
+			consumerBean.setDn(dn);
+			consumerBean.setPa(pa);
+			consumerBean.setCredential(credential);
+			consumerBean.setBroker(broker);
+			consumerBean.setClient(client);
+			consumerBean.setUsername(username);
+			consumerBean.setPassword(password);
+			consumerBean.startListening();
+		}
+		
 
 		
-		consumerBean.setOr(or);
-		consumerBean.setDn(dn);
-		consumerBean.setPa(pa);
-		consumerBean.setCredential(credential);
-		consumerBean.setBroker(broker);
-		consumerBean.setClient(client);
-		consumerBean.setUsername(username);
-		consumerBean.setPassword(password);
-		consumerBean.startListening();
-		
+//		boolean pingSwim = msgboxTimerBean.pingSWIM();
+//		System.out.println("PING: "+pingSwim);
 	}
 	
 	public static void stopReceivingMessage() throws Exception {
+		monitor.stop();
 		System.out.println("Initializing property");
 		Properties p = EJBClient.getProperty("", "");
 		InitialContext ic = EJBClient.getInitialContext(p);

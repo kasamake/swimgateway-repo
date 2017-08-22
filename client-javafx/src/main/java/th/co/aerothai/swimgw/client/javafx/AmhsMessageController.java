@@ -76,6 +76,7 @@ public class AmhsMessageController {
         try {
 			EJBClient.startReceivingMessage(orAdress.getText(), dn.getText(), pa.getText(), credential.getText(),
 					broker.getText(), client.getText(), username.getText(), password.getText());
+			System.out.println("Start done");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,0 +1,612 @@
+2017-08-16 13:32:36 INFO  ConsoleController:51 - Test adding info
+2017-08-16 13:32:36 ERROR ConsoleController:52 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-16 13:32:37 INFO  ConsoleController:51 - Test adding info
+2017-08-16 13:32:37 ERROR ConsoleController:52 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-16 13:32:37 INFO  ConsoleController:51 - Test adding info
+2017-08-16 13:32:37 ERROR ConsoleController:52 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-16 14:07:59 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 14:07:59 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 14:07:59 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 14:07:59 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:07:59 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2b35eab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <48a01e20>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b67ebbf6 (outbound) of Remoting connection 38ffcb78 to localhost/127.0.0.1:8080
+2017-08-16 14:08:00 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 14:08:07 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:08:07 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@9e28150, receiver=Remoting connection EJB receiver [connection=Remoting connection <68d95517>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID fa52aba1 (outbound) of Remoting connection 2d8c2db8 to localhost/127.0.0.1:8080
+2017-08-16 14:13:35 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b67ebbf6 (outbound) of Remoting connection 38ffcb78 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 14:13:35 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID fa52aba1 (outbound) of Remoting connection 2d8c2db8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 14:14:59 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 14:14:59 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 14:14:59 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 14:14:59 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:14:59 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@231bf486, receiver=Remoting connection EJB receiver [connection=Remoting connection <48a01e20>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 952d62fc (outbound) of Remoting connection 522810ae to localhost/127.0.0.1:8080
+2017-08-16 14:14:59 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 14:15:20 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:15:20 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@47f752f8, receiver=Remoting connection EJB receiver [connection=Remoting connection <26c35e77>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a05d8f8b (outbound) of Remoting connection 5011d5d0 to localhost/127.0.0.1:8080
+2017-08-16 14:28:18 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:28:18 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@54360f3e, receiver=Remoting connection EJB receiver [connection=Remoting connection <670b9e41>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID db6e1d83 (outbound) of Remoting connection 7436a8df to localhost/127.0.0.1:8080
+2017-08-16 14:28:44 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 14:28:44 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3c57710f, receiver=Remoting connection EJB receiver [connection=Remoting connection <17b48c98>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9b61fe04 (outbound) of Remoting connection 316f54cd to localhost/127.0.0.1:8080
+2017-08-16 15:14:51 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID db6e1d83 (outbound) of Remoting connection 7436a8df to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:14:51 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9b61fe04 (outbound) of Remoting connection 316f54cd to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:14:51 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 952d62fc (outbound) of Remoting connection 522810ae to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:14:51 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a05d8f8b (outbound) of Remoting connection 5011d5d0 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:15:04 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 15:15:04 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 15:15:04 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 15:15:04 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:15:04 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4c1a5a06, receiver=Remoting connection EJB receiver [connection=Remoting connection <6bf924fe>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 92b29ff9 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080
+2017-08-16 15:15:04 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 15:16:32 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 92b29ff9 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:29:37 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 15:29:37 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 15:29:37 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 15:29:37 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:29:37 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2b35eab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <40ae1610>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 95af43ea (outbound) of Remoting connection 2decfcc5 to localhost/127.0.0.1:8080
+2017-08-16 15:29:37 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 15:29:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:29:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@47f752f8, receiver=Remoting connection EJB receiver [connection=Remoting connection <ab00553>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c1decf6a (outbound) of Remoting connection 5011d5d0 to localhost/127.0.0.1:8080
+2017-08-16 15:30:31 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c1decf6a (outbound) of Remoting connection 5011d5d0 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:30:31 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 95af43ea (outbound) of Remoting connection 2decfcc5 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:34:47 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 15:34:47 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 15:34:48 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 15:35:43 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 15:35:43 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 15:35:43 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 15:35:43 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:35:43 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@b9ecb2c, receiver=Remoting connection EJB receiver [connection=Remoting connection <1dc59994>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 84250505 (outbound) of Remoting connection 1e1e846f to localhost/127.0.0.1:8080
+2017-08-16 15:35:43 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 15:40:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:40:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4bdb42cf, receiver=Remoting connection EJB receiver [connection=Remoting connection <4a582043>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 86aaf9d6 (outbound) of Remoting connection 3079d158 to localhost/127.0.0.1:8080
+2017-08-16 15:41:43 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 86aaf9d6 (outbound) of Remoting connection 3079d158 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:41:43 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 84250505 (outbound) of Remoting connection 1e1e846f to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 15:42:32 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 15:42:32 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 15:42:32 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 15:42:32 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:42:32 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@15e6115a, receiver=Remoting connection EJB receiver [connection=Remoting connection <e130e0b>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c6425213 (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080
+2017-08-16 15:42:32 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 15:45:02 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:45:02 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@199922f, receiver=Remoting connection EJB receiver [connection=Remoting connection <4a582043>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e968b869 (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080
+2017-08-16 15:45:53 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:45:53 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@21dd4b6a, receiver=Remoting connection EJB receiver [connection=Remoting connection <229f66d9>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID fff7d432 (outbound) of Remoting connection 2705b593 to localhost/127.0.0.1:8080
+2017-08-16 15:48:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:48:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2b7c7118, receiver=Remoting connection EJB receiver [connection=Remoting connection <24dd86a0>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 92cb9eef (outbound) of Remoting connection 57b53426 to localhost/127.0.0.1:8080
+2017-08-16 15:49:33 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:49:33 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@132a2f7e, receiver=Remoting connection EJB receiver [connection=Remoting connection <281758db>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID cdbdd4b0 (outbound) of Remoting connection 788975f8 to localhost/127.0.0.1:8080
+2017-08-16 15:50:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 15:50:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4820b49a, receiver=Remoting connection EJB receiver [connection=Remoting connection <3611279a>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9b6254ef (outbound) of Remoting connection 2abc9dd8 to localhost/127.0.0.1:8080
+2017-08-16 16:07:21 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:07:21 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@36b90136, receiver=Remoting connection EJB receiver [connection=Remoting connection <7b543509>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID cb813d9e (outbound) of Remoting connection 44e59345 to localhost/127.0.0.1:8080
+2017-08-16 16:08:03 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:08:03 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2346d522, receiver=Remoting connection EJB receiver [connection=Remoting connection <1a1349ad>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID aa5af39a (outbound) of Remoting connection 7c2a893d to localhost/127.0.0.1:8080
+2017-08-16 16:10:34 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:10:34 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@e868297, receiver=Remoting connection EJB receiver [connection=Remoting connection <23ab1b03>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a5b3356e (outbound) of Remoting connection 425479cd to localhost/127.0.0.1:8080
+2017-08-16 16:12:16 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:12:16 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1bbf6ad5, receiver=Remoting connection EJB receiver [connection=Remoting connection <496ee705>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c509049b (outbound) of Remoting connection 7ee1d7c1 to localhost/127.0.0.1:8080
+2017-08-16 16:14:29 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:14:29 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7dbb5cf7, receiver=Remoting connection EJB receiver [connection=Remoting connection <4dc1394f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 941a6ab9 (outbound) of Remoting connection 74abe7ef to localhost/127.0.0.1:8080
+2017-08-16 16:14:40 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:14:40 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@50c55f99, receiver=Remoting connection EJB receiver [connection=Remoting connection <41bc1e74>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8e192b64 (outbound) of Remoting connection 11eb73bf to localhost/127.0.0.1:8080
+2017-08-16 16:15:05 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:15:05 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@18d06a1e, receiver=Remoting connection EJB receiver [connection=Remoting connection <7087017c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f109a8f2 (outbound) of Remoting connection 59f14f1b to localhost/127.0.0.1:8080
+2017-08-16 16:15:16 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:15:16 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@c33376, receiver=Remoting connection EJB receiver [connection=Remoting connection <9d44893>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID fac60462 (outbound) of Remoting connection 0ddea35a to localhost/127.0.0.1:8080
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e968b869 (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c6425213 (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 941a6ab9 (outbound) of Remoting connection 74abe7ef to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9b6254ef (outbound) of Remoting connection 2abc9dd8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID fff7d432 (outbound) of Remoting connection 2705b593 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f109a8f2 (outbound) of Remoting connection 59f14f1b to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8e192b64 (outbound) of Remoting connection 11eb73bf to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID fac60462 (outbound) of Remoting connection 0ddea35a to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a5b3356e (outbound) of Remoting connection 425479cd to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID cb813d9e (outbound) of Remoting connection 44e59345 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID aa5af39a (outbound) of Remoting connection 7c2a893d to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID cdbdd4b0 (outbound) of Remoting connection 788975f8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c509049b (outbound) of Remoting connection 7ee1d7c1 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:16:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 92cb9eef (outbound) of Remoting connection 57b53426 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:17:28 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 16:17:28 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 16:17:28 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 16:17:28 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:17:28 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6953eab7, receiver=Remoting connection EJB receiver [connection=Remoting connection <e130e0b>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID aaa91df2 (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080
+2017-08-16 16:17:28 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 16:17:49 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:17:49 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4560d031, receiver=Remoting connection EJB receiver [connection=Remoting connection <4a582043>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d293fc24 (outbound) of Remoting connection 285e146c to localhost/127.0.0.1:8080
+2017-08-16 16:20:57 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d293fc24 (outbound) of Remoting connection 285e146c to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:20:57 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID aaa91df2 (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:23:40 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 16:23:40 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 16:23:40 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 16:23:40 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:23:40 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@29113351, receiver=Remoting connection EJB receiver [connection=Remoting connection <763c17d5>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d6ef38ca (outbound) of Remoting connection 2e53a253 to localhost/127.0.0.1:8080
+2017-08-16 16:23:40 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 16:26:13 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:26:13 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2ff8dea, receiver=Remoting connection EJB receiver [connection=Remoting connection <4326b4>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ac19e220 (outbound) of Remoting connection 27dd30d6 to localhost/127.0.0.1:8080
+2017-08-16 16:32:58 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d6ef38ca (outbound) of Remoting connection 2e53a253 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:32:58 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ac19e220 (outbound) of Remoting connection 27dd30d6 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:36:15 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 16:36:15 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 16:36:15 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 16:36:15 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:36:15 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@15e6115a, receiver=Remoting connection EJB receiver [connection=Remoting connection <6a468edb>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ca4d9197 (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080
+2017-08-16 16:36:15 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 16:37:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:37:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@199922f, receiver=Remoting connection EJB receiver [connection=Remoting connection <4e9c7321>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ff75bbde (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080
+2017-08-16 16:50:04 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ff75bbde (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:50:04 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ca4d9197 (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:53:49 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 16:53:49 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 16:53:49 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 16:53:50 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:53:50 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@29113351, receiver=Remoting connection EJB receiver [connection=Remoting connection <7cf29f60>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b16cb168 (outbound) of Remoting connection 2e53a253 to localhost/127.0.0.1:8080
+2017-08-16 16:53:50 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 16:55:10 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 16:55:10 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1a9c7202, receiver=Remoting connection EJB receiver [connection=Remoting connection <281758db>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9d5101ea (outbound) of Remoting connection 5e285573 to localhost/127.0.0.1:8080
+2017-08-16 16:57:29 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9d5101ea (outbound) of Remoting connection 5e285573 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 16:57:29 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b16cb168 (outbound) of Remoting connection 2e53a253 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:00:51 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 17:00:51 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 17:00:51 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 17:00:51 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:00:51 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2136a097, receiver=Remoting connection EJB receiver [connection=Remoting connection <74670a76>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a83dab2f (outbound) of Remoting connection 425a8bae to localhost/127.0.0.1:8080
+2017-08-16 17:00:52 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 17:01:50 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:01:50 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@587ddd4d, receiver=Remoting connection EJB receiver [connection=Remoting connection <7d24ee7d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID bdfe4c85 (outbound) of Remoting connection 0199922f to localhost/127.0.0.1:8080
+2017-08-16 17:02:58 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID bdfe4c85 (outbound) of Remoting connection 0199922f to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:02:58 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a83dab2f (outbound) of Remoting connection 425a8bae to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:06:47 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 17:06:47 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 17:06:47 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 17:06:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:06:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@15e6115a, receiver=Remoting connection EJB receiver [connection=Remoting connection <6bf924fe>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a219222d (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080
+2017-08-16 17:06:47 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 17:07:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:07:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@b3c717d, receiver=Remoting connection EJB receiver [connection=Remoting connection <58d29d9f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID efcaeb4a (outbound) of Remoting connection 2d3ffb72 to localhost/127.0.0.1:8080
+2017-08-16 17:08:27 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a219222d (outbound) of Remoting connection 4eaffc57 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:08:27 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID efcaeb4a (outbound) of Remoting connection 2d3ffb72 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:10:11 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 17:10:11 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 17:10:11 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 17:10:11 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:10:11 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@53bf55fd, receiver=Remoting connection EJB receiver [connection=Remoting connection <15a1dbc3>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID fd2fa440 (outbound) of Remoting connection 7eea067e to localhost/127.0.0.1:8080
+2017-08-16 17:10:11 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 17:11:14 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 17:11:14 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3d0543b3, receiver=Remoting connection EJB receiver [connection=Remoting connection <68d95517>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 84d1be2b (outbound) of Remoting connection 56f46a40 to localhost/127.0.0.1:8080
+2017-08-16 17:27:18 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 84d1be2b (outbound) of Remoting connection 56f46a40 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 17:27:18 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID fd2fa440 (outbound) of Remoting connection 7eea067e to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 20:43:45 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 20:43:45 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 20:43:45 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 20:43:45 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 20:43:45 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@239eac8b, receiver=Remoting connection EJB receiver [connection=Remoting connection <4fc7e473>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID eb8193cc (outbound) of Remoting connection 25467760 to localhost/127.0.0.1:8080
+2017-08-16 20:43:45 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 20:44:10 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 20:44:10 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3738a0e4, receiver=Remoting connection EJB receiver [connection=Remoting connection <5d9c6056>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID dbd0acaa (outbound) of Remoting connection 08252a58 to localhost/127.0.0.1:8080
+2017-08-16 20:44:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 20:44:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2d794f38, receiver=Remoting connection EJB receiver [connection=Remoting connection <c5c27d6>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9f752485 (outbound) of Remoting connection 51b434b8 to localhost/127.0.0.1:8080
+2017-08-16 20:44:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9f752485 (outbound) of Remoting connection 51b434b8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 20:44:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID dbd0acaa (outbound) of Remoting connection 08252a58 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 20:44:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID eb8193cc (outbound) of Remoting connection 25467760 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 20:56:19 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 20:56:31 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 20:56:31 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 20:56:33 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 20:56:34 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7cff3331, receiver=Remoting connection EJB receiver [connection=Remoting connection <31bef6ec>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 85048156 (outbound) of Remoting connection 4f6e569a to localhost/127.0.0.1:8080
+2017-08-16 20:56:34 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 85048156 (outbound) of Remoting connection 4f6e569a to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 20:59:53 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 20:59:53 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 20:59:53 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 20:59:53 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 20:59:53 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <60e0a2d5>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9e1b7953 (outbound) of Remoting connection 1e1e846f to localhost/127.0.0.1:8080
+2017-08-16 20:59:53 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:00:09 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:00:09 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@27dd30d6, receiver=Remoting connection EJB receiver [connection=Remoting connection <1658ea1e>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8237998a (outbound) of Remoting connection 47f752f8 to localhost/127.0.0.1:8080
+2017-08-16 21:06:14 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8237998a (outbound) of Remoting connection 47f752f8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:06:14 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9e1b7953 (outbound) of Remoting connection 1e1e846f to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:36:11 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:36:11 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:36:11 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:36:11 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:36:11 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:36:11 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@663694d0, receiver=Remoting connection EJB receiver [connection=Remoting connection <68704783>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f1c75fe8 (outbound) of Remoting connection 3b365da2 to localhost/127.0.0.1:8080
+2017-08-16 21:36:11 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2ae59d1e, receiver=Remoting connection EJB receiver [connection=Remoting connection <177b6df>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e95b1a69 (outbound) of Remoting connection 1598e4e3 to localhost/127.0.0.1:8080
+2017-08-16 21:36:11 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:37:18 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f1c75fe8 (outbound) of Remoting connection 3b365da2 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:37:18 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e95b1a69 (outbound) of Remoting connection 1598e4e3 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:39:36 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:39:36 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:39:36 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:39:36 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:39:36 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:39:36 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1ffba06a, receiver=Remoting connection EJB receiver [connection=Remoting connection <7caf29b6>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b7060954 (outbound) of Remoting connection 6da90ebc to localhost/127.0.0.1:8080
+2017-08-16 21:39:36 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@34d232ad, receiver=Remoting connection EJB receiver [connection=Remoting connection <194d8c1b>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d8947537 (outbound) of Remoting connection 12a5d6d1 to localhost/127.0.0.1:8080
+2017-08-16 21:39:36 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:40:37 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:40:37 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@bc7339e, receiver=Remoting connection EJB receiver [connection=Remoting connection <5ae9f4cc>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a3300e91 (outbound) of Remoting connection 67f013ed to localhost/127.0.0.1:8080
+2017-08-16 21:40:45 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:40:45 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:40:45 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@281853ec, receiver=Remoting connection EJB receiver [connection=Remoting connection <214b166c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a9e4b79d (outbound) of Remoting connection 6161a2ab to localhost/127.0.0.1:8080
+2017-08-16 21:40:45 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5495d484, receiver=Remoting connection EJB receiver [connection=Remoting connection <389bd175>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8a912922 (outbound) of Remoting connection 10094ec3 to localhost/127.0.0.1:8080
+2017-08-16 21:41:18 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:41:18 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3e1374ea, receiver=Remoting connection EJB receiver [connection=Remoting connection <5dfdb2da>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c8f8eaa4 (outbound) of Remoting connection 012917b3 to localhost/127.0.0.1:8080
+2017-08-16 21:41:25 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:41:25 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:41:25 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@33378a82, receiver=Remoting connection EJB receiver [connection=Remoting connection <4b101d4f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b94b0322 (outbound) of Remoting connection 36c86f38 to localhost/127.0.0.1:8080
+2017-08-16 21:41:25 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6b17a4ac, receiver=Remoting connection EJB receiver [connection=Remoting connection <719f1737>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8abc82c7 (outbound) of Remoting connection 175ed9ff to localhost/127.0.0.1:8080
+2017-08-16 21:41:33 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:41:33 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@29165ae6, receiver=Remoting connection EJB receiver [connection=Remoting connection <59f365de>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a49f0e3f (outbound) of Remoting connection 0a5c5f17 to localhost/127.0.0.1:8080
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d8947537 (outbound) of Remoting connection 12a5d6d1 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b7060954 (outbound) of Remoting connection 6da90ebc to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a3300e91 (outbound) of Remoting connection 67f013ed to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a9e4b79d (outbound) of Remoting connection 6161a2ab to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a49f0e3f (outbound) of Remoting connection 0a5c5f17 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c8f8eaa4 (outbound) of Remoting connection 012917b3 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b94b0322 (outbound) of Remoting connection 36c86f38 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8abc82c7 (outbound) of Remoting connection 175ed9ff to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:42:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8a912922 (outbound) of Remoting connection 10094ec3 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:43:40 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:43:40 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:43:40 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:43:41 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:43:41 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:43:41 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@579da659, receiver=Remoting connection EJB receiver [connection=Remoting connection <21aa3a41>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ea295628 (outbound) of Remoting connection 2432e398 to localhost/127.0.0.1:8080
+2017-08-16 21:43:41 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@312cb9fb, receiver=Remoting connection EJB receiver [connection=Remoting connection <1efd1527>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f477d6dc (outbound) of Remoting connection 56297fd4 to localhost/127.0.0.1:8080
+2017-08-16 21:43:46 INFO  remoting:248 - EJBCLIENT000015: Initial module availability report for Remoting connection EJB receiver [connection=Remoting connection <21aa3a41>,channel=jboss.ejb,nodename=desktop-9r8auhb] wasn't received during the receiver context association
+2017-08-16 21:43:46 INFO  remoting:248 - EJBCLIENT000015: Initial module availability report for Remoting connection EJB receiver [connection=Remoting connection <1efd1527>,channel=jboss.ejb,nodename=desktop-9r8auhb] wasn't received during the receiver context association
+2017-08-16 21:44:03 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ea295628 (outbound) of Remoting connection 2432e398 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:44:03 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f477d6dc (outbound) of Remoting connection 56297fd4 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:44:31 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:44:31 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:44:31 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:44:32 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:44:32 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:44:32 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5251ca64, receiver=Remoting connection EJB receiver [connection=Remoting connection <483671e8>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f28edd24 (outbound) of Remoting connection 6919d52c to localhost/127.0.0.1:8080
+2017-08-16 21:44:32 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@20ec17d2, receiver=Remoting connection EJB receiver [connection=Remoting connection <af14ee6>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ea2297a5 (outbound) of Remoting connection 1b4ff9e6 to localhost/127.0.0.1:8080
+2017-08-16 21:44:32 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:45:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:45:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@42c3b571, receiver=Remoting connection EJB receiver [connection=Remoting connection <4d34c874>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ad794a62 (outbound) of Remoting connection 7385a88e to localhost/127.0.0.1:8080
+2017-08-16 21:47:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f28edd24 (outbound) of Remoting connection 6919d52c to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:47:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ea2297a5 (outbound) of Remoting connection 1b4ff9e6 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:47:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ad794a62 (outbound) of Remoting connection 7385a88e to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:47:54 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:47:54 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:47:54 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:47:54 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:47:54 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:47:54 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5c938804, receiver=Remoting connection EJB receiver [connection=Remoting connection <40c0e456>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b381edb5 (outbound) of Remoting connection 255302bc to localhost/127.0.0.1:8080
+2017-08-16 21:47:54 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3b5f8235, receiver=Remoting connection EJB receiver [connection=Remoting connection <329a56e0>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8a71f797 (outbound) of Remoting connection 57f25e28 to localhost/127.0.0.1:8080
+2017-08-16 21:47:54 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:48:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:48:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4679b65d, receiver=Remoting connection EJB receiver [connection=Remoting connection <6a421a58>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID beadaa31 (outbound) of Remoting connection 345fe5c7 to localhost/127.0.0.1:8080
+2017-08-16 21:50:24 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b381edb5 (outbound) of Remoting connection 255302bc to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:50:24 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID beadaa31 (outbound) of Remoting connection 345fe5c7 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:50:24 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8a71f797 (outbound) of Remoting connection 57f25e28 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:50:30 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:50:30 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:50:30 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:50:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:50:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:50:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@45c5ddd1, receiver=Remoting connection EJB receiver [connection=Remoting connection <6992f1d3>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c10912d0 (outbound) of Remoting connection 47fbd5c3 to localhost/127.0.0.1:8080
+2017-08-16 21:50:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@2896e524, receiver=Remoting connection EJB receiver [connection=Remoting connection <583687e7>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8faf814c (outbound) of Remoting connection 74e486f5 to localhost/127.0.0.1:8080
+2017-08-16 21:50:30 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:51:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:51:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@15ffe5b2, receiver=Remoting connection EJB receiver [connection=Remoting connection <22c7f88a>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a17b8a57 (outbound) of Remoting connection 6e9d2f41 to localhost/127.0.0.1:8080
+2017-08-16 21:51:28 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c10912d0 (outbound) of Remoting connection 47fbd5c3 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:51:28 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8faf814c (outbound) of Remoting connection 74e486f5 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:51:28 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a17b8a57 (outbound) of Remoting connection 6e9d2f41 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:52:49 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-16 21:52:49 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-16 21:52:49 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-16 21:52:49 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:52:49 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:52:49 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6420ef44, receiver=Remoting connection EJB receiver [connection=Remoting connection <75545d4d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e4d36261 (outbound) of Remoting connection 13527b00 to localhost/127.0.0.1:8080
+2017-08-16 21:52:49 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@389992ad, receiver=Remoting connection EJB receiver [connection=Remoting connection <146f312d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID caf5171f (outbound) of Remoting connection 382449fc to localhost/127.0.0.1:8080
+2017-08-16 21:52:49 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-16 21:53:13 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-16 21:53:13 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@458850a9, receiver=Remoting connection EJB receiver [connection=Remoting connection <47bf6611>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a4086664 (outbound) of Remoting connection 4316d368 to localhost/127.0.0.1:8080
+2017-08-16 21:54:04 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a4086664 (outbound) of Remoting connection 4316d368 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:54:04 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e4d36261 (outbound) of Remoting connection 13527b00 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-16 21:54:04 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID caf5171f (outbound) of Remoting connection 382449fc to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 08:52:56 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 08:52:56 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 08:52:56 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 08:52:57 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 08:52:57 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 08:52:57 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@26f2fd8c, receiver=Remoting connection EJB receiver [connection=Remoting connection <4be3560>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 941cee20 (outbound) of Remoting connection 7502bbb1 to localhost/127.0.0.1:8080
+2017-08-17 08:52:57 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7df30cbd, receiver=Remoting connection EJB receiver [connection=Remoting connection <5ae6aa>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 980970bb (outbound) of Remoting connection 4fd513cf to localhost/127.0.0.1:8080
+2017-08-17 08:52:57 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 08:53:13 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 08:53:13 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4de41883, receiver=Remoting connection EJB receiver [connection=Remoting connection <31244d28>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 85916ed3 (outbound) of Remoting connection 72bc3b48 to localhost/127.0.0.1:8080
+2017-08-17 08:53:34 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 980970bb (outbound) of Remoting connection 4fd513cf to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 08:53:34 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 941cee20 (outbound) of Remoting connection 7502bbb1 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 08:53:34 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 85916ed3 (outbound) of Remoting connection 72bc3b48 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 08:54:31 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 08:54:31 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 08:54:31 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 08:54:31 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 08:54:31 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 08:54:31 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@44d4b60d, receiver=Remoting connection EJB receiver [connection=Remoting connection <2b167592>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ade1db29 (outbound) of Remoting connection 56a6de1a to localhost/127.0.0.1:8080
+2017-08-17 08:54:31 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1bd09e1c, receiver=Remoting connection EJB receiver [connection=Remoting connection <5e49bfc7>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e02bd0cc (outbound) of Remoting connection 3d778d2e to localhost/127.0.0.1:8080
+2017-08-17 08:54:31 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 09:09:30 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 09:09:30 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 09:09:30 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 09:09:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 09:09:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 09:09:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@58352303, receiver=Remoting connection EJB receiver [connection=Remoting connection <1fa85fce>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f9ce0080 (outbound) of Remoting connection 4bf8a728 to localhost/127.0.0.1:8080
+2017-08-17 09:09:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5fbf112c, receiver=Remoting connection EJB receiver [connection=Remoting connection <3e14ac06>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID aaab51eb (outbound) of Remoting connection 038c0855 to localhost/127.0.0.1:8080
+2017-08-17 09:09:30 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 09:12:02 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 09:12:02 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6b0ccef, receiver=Remoting connection EJB receiver [connection=Remoting connection <1ade1655>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 948a3905 (outbound) of Remoting connection 066242b9 to localhost/127.0.0.1:8080
+2017-08-17 09:31:21 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 948a3905 (outbound) of Remoting connection 066242b9 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 09:31:21 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f9ce0080 (outbound) of Remoting connection 4bf8a728 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 09:31:21 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID aaab51eb (outbound) of Remoting connection 038c0855 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 09:45:07 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 09:45:07 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 09:45:07 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 09:45:07 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 09:45:07 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 09:45:08 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3d19515f, receiver=Remoting connection EJB receiver [connection=Remoting connection <222c705c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e2e95939 (outbound) of Remoting connection 1e4bedf2 to localhost/127.0.0.1:8080
+2017-08-17 09:45:08 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@34b458e9, receiver=Remoting connection EJB receiver [connection=Remoting connection <53f857f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9260af88 (outbound) of Remoting connection 32b99c4d to localhost/127.0.0.1:8080
+2017-08-17 09:45:08 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 12:33:45 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 12:33:45 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@65ac06f6, receiver=Remoting connection EJB receiver [connection=Remoting connection <7c178558>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 82365688 (outbound) of Remoting connection 61cc1e4f to localhost/127.0.0.1:8080
+2017-08-17 12:35:23 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 82365688 (outbound) of Remoting connection 61cc1e4f to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 12:35:23 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e2e95939 (outbound) of Remoting connection 1e4bedf2 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 12:35:23 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9260af88 (outbound) of Remoting connection 32b99c4d to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:23:10 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 13:23:10 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 13:23:10 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 13:23:10 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:23:10 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:23:10 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@543d596e, receiver=Remoting connection EJB receiver [connection=Remoting connection <34577b75>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c23a1949 (outbound) of Remoting connection 1f97068b to localhost/127.0.0.1:8080
+2017-08-17 13:23:10 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@10a07915, receiver=Remoting connection EJB receiver [connection=Remoting connection <7edfd717>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID caa65ec7 (outbound) of Remoting connection 25d2adc9 to localhost/127.0.0.1:8080
+2017-08-17 13:23:10 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 13:27:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c23a1949 (outbound) of Remoting connection 1f97068b to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:27:33 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID caa65ec7 (outbound) of Remoting connection 25d2adc9 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:40:19 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 13:40:19 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 13:40:19 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 13:40:19 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:40:19 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:40:19 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@211468f5, receiver=Remoting connection EJB receiver [connection=Remoting connection <71df0bfd>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9f6b8399 (outbound) of Remoting connection 1ee7cc1e to localhost/127.0.0.1:8080
+2017-08-17 13:40:19 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@789dd4f0, receiver=Remoting connection EJB receiver [connection=Remoting connection <317d4317>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 96ff3e1b (outbound) of Remoting connection 71393030 to localhost/127.0.0.1:8080
+2017-08-17 13:40:19 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 13:51:03 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 96ff3e1b (outbound) of Remoting connection 71393030 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:51:03 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9f6b8399 (outbound) of Remoting connection 1ee7cc1e to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:51:50 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 13:51:50 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 13:51:50 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 13:51:50 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:51:50 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:51:50 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1e876ad1, receiver=Remoting connection EJB receiver [connection=Remoting connection <15a1dbc3>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID eef1942f (outbound) of Remoting connection 2a9fe6c7 to localhost/127.0.0.1:8080
+2017-08-17 13:51:50 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@29c41de9, receiver=Remoting connection EJB receiver [connection=Remoting connection <79086116>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f75dd9ae (outbound) of Remoting connection 4d5efbbd to localhost/127.0.0.1:8080
+2017-08-17 13:51:50 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 13:52:25 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f75dd9ae (outbound) of Remoting connection 4d5efbbd to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:52:25 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID eef1942f (outbound) of Remoting connection 2a9fe6c7 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:53:22 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 13:53:22 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 13:53:22 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 13:53:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:53:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 13:53:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@61fc272d, receiver=Remoting connection EJB receiver [connection=Remoting connection <3b316505>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f37f3a04 (outbound) of Remoting connection 7ff712f8 to localhost/127.0.0.1:8080
+2017-08-17 13:53:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@64fd4ee3, receiver=Remoting connection EJB receiver [connection=Remoting connection <5616f44b>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d8729d6d (outbound) of Remoting connection 7cd7d52e to localhost/127.0.0.1:8080
+2017-08-17 13:53:23 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 13:57:30 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f37f3a04 (outbound) of Remoting connection 7ff712f8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 13:57:30 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d8729d6d (outbound) of Remoting connection 7cd7d52e to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:02:02 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 14:02:02 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 14:02:02 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 14:02:02 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:02:02 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:02:02 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@16072cf, receiver=Remoting connection EJB receiver [connection=Remoting connection <4e661696>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 86d87b21 (outbound) of Remoting connection 62680cec to localhost/127.0.0.1:8080
+2017-08-17 14:02:02 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5b16c780, receiver=Remoting connection EJB receiver [connection=Remoting connection <23086c1c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b4db38fe (outbound) of Remoting connection 6f8b06e1 to localhost/127.0.0.1:8080
+2017-08-17 14:02:02 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 14:04:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:04:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6f8c078a, receiver=Remoting connection EJB receiver [connection=Remoting connection <41038b94>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d1975b42 (outbound) of Remoting connection 14cb40fc to localhost/127.0.0.1:8080
+2017-08-17 14:05:07 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 86d87b21 (outbound) of Remoting connection 62680cec to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:05:07 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b4db38fe (outbound) of Remoting connection 6f8b06e1 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:05:07 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d1975b42 (outbound) of Remoting connection 14cb40fc to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:07:38 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 14:07:38 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 14:07:38 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 14:07:38 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:07:38 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:07:38 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@42c06ca, receiver=Remoting connection EJB receiver [connection=Remoting connection <6c8c9c0>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 969ba629 (outbound) of Remoting connection 55cb1422 to localhost/127.0.0.1:8080
+2017-08-17 14:07:38 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@f373dec, receiver=Remoting connection EJB receiver [connection=Remoting connection <3e2a2b1c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f5897a61 (outbound) of Remoting connection 2ff30204 to localhost/127.0.0.1:8080
+2017-08-17 14:07:38 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 14:10:00 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f5897a61 (outbound) of Remoting connection 2ff30204 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:10:00 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 969ba629 (outbound) of Remoting connection 55cb1422 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:10:29 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 14:10:30 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 14:10:30 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 14:10:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:10:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:10:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5f2800fb, receiver=Remoting connection EJB receiver [connection=Remoting connection <5dbddcc2>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e59f1bdb (outbound) of Remoting connection 76ec4686 to localhost/127.0.0.1:8080
+2017-08-17 14:10:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4740581a, receiver=Remoting connection EJB receiver [connection=Remoting connection <6f4123ce>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a36cff5a (outbound) of Remoting connection 4434703c to localhost/127.0.0.1:8080
+2017-08-17 14:10:30 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 14:13:29 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a36cff5a (outbound) of Remoting connection 4434703c to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:13:29 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e59f1bdb (outbound) of Remoting connection 76ec4686 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:54:31 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 14:54:31 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 14:54:32 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 14:54:32 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:54:32 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7cdfe3d3, receiver=Remoting connection EJB receiver [connection=Remoting connection <1e9e8766>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID aec5fae2 (outbound) of Remoting connection 7672cf8e to localhost/127.0.0.1:8080
+2017-08-17 14:54:32 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 14:54:41 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID aec5fae2 (outbound) of Remoting connection 7672cf8e to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 14:55:47 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 14:55:47 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 14:55:47 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 14:55:47 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 14:55:47 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <3054830f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 98de1413 (outbound) of Remoting connection 1c8c0184 to localhost/127.0.0.1:8080
+2017-08-17 14:55:47 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 14:59:11 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 98de1413 (outbound) of Remoting connection 1c8c0184 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:00:10 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:00:10 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:00:10 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:00:11 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:00:11 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <6dfdc62b>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9aa993e9 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080
+2017-08-17 15:00:11 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:00:38 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9aa993e9 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:01:31 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:01:31 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:01:31 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:01:31 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:01:31 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <1bceaab5>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a9340006 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080
+2017-08-17 15:01:31 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:01:42 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a9340006 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:02:46 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:02:46 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:02:46 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:02:46 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:02:46 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@239eac8b, receiver=Remoting connection EJB receiver [connection=Remoting connection <65edce77>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d559fdc6 (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080
+2017-08-17 15:02:46 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:03:11 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d559fdc6 (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:04:38 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:04:38 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:04:38 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:04:38 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:04:38 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <62857a84>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d58d34b0 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080
+2017-08-17 15:04:38 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:05:28 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:05:28 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@a6aca20, receiver=Remoting connection EJB receiver [connection=Remoting connection <618d2ea3>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 81b4105e (outbound) of Remoting connection 732fe5b2 to localhost/127.0.0.1:8080
+2017-08-17 15:07:39 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 81b4105e (outbound) of Remoting connection 732fe5b2 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:07:39 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d58d34b0 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:08:17 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:08:17 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:08:17 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:08:17 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:08:17 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3f56e46e, receiver=Remoting connection EJB receiver [connection=Remoting connection <65edce77>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a8593032 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080
+2017-08-17 15:08:17 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:08:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:08:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@199922f, receiver=Remoting connection EJB receiver [connection=Remoting connection <21d5e90d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 89317ec6 (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080
+2017-08-17 15:10:01 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 89317ec6 (outbound) of Remoting connection 4560d031 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:10:01 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a8593032 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:24:29 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:24:29 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:24:29 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:24:29 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:24:29 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@239eac8b, receiver=Remoting connection EJB receiver [connection=Remoting connection <1d38ce92>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e5e4181c (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080
+2017-08-17 15:24:29 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:28:08 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e5e4181c (outbound) of Remoting connection 01dbde95 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:28:17 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:28:17 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:28:17 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:28:17 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:28:17 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@58d14344, receiver=Remoting connection EJB receiver [connection=Remoting connection <385acb96>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 92fba18d (outbound) of Remoting connection 3ddae60c to localhost/127.0.0.1:8080
+2017-08-17 15:28:17 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:32:11 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:32:11 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1e36b225, receiver=Remoting connection EJB receiver [connection=Remoting connection <1e2cdeb0>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 82a44a0a (outbound) of Remoting connection 651b6c5d to localhost/127.0.0.1:8080
+2017-08-17 15:33:31 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 82a44a0a (outbound) of Remoting connection 651b6c5d to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:33:31 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 92fba18d (outbound) of Remoting connection 3ddae60c to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:33:43 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:33:43 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:33:43 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:33:43 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:33:43 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@37b880f3, receiver=Remoting connection EJB receiver [connection=Remoting connection <363035ca>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d25ba54f (outbound) of Remoting connection 25467760 to localhost/127.0.0.1:8080
+2017-08-17 15:33:43 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:34:00 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:34:00 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3738a0e4, receiver=Remoting connection EJB receiver [connection=Remoting connection <6ba4e97d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9d5e7e68 (outbound) of Remoting connection 08252a58 to localhost/127.0.0.1:8080
+2017-08-17 15:35:47 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9d5e7e68 (outbound) of Remoting connection 08252a58 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:35:47 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d25ba54f (outbound) of Remoting connection 25467760 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:41:01 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:41:01 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:41:01 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:41:01 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:41:01 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3f56e46e, receiver=Remoting connection EJB receiver [connection=Remoting connection <6028b6c6>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 97293207 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080
+2017-08-17 15:41:01 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:42:10 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:42:10 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@7a688438, receiver=Remoting connection EJB receiver [connection=Remoting connection <58d29d9f>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a8db6c64 (outbound) of Remoting connection 4aaa28d3 to localhost/127.0.0.1:8080
+2017-08-17 15:44:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a8db6c64 (outbound) of Remoting connection 4aaa28d3 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:44:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 97293207 (outbound) of Remoting connection 3f950903 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:46:53 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:46:53 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:46:53 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:46:53 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:46:53 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@67d73ab5, receiver=Remoting connection EJB receiver [connection=Remoting connection <15a1dbc3>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c5009532 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080
+2017-08-17 15:46:53 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:48:32 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:48:32 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5e285573, receiver=Remoting connection EJB receiver [connection=Remoting connection <68d95517>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID dc16d383 (outbound) of Remoting connection 5b68172b to localhost/127.0.0.1:8080
+2017-08-17 15:48:36 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID dc16d383 (outbound) of Remoting connection 5b68172b to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:48:36 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c5009532 (outbound) of Remoting connection 0d687053 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:49:06 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:49:06 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:49:07 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:49:07 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:49:07 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1922837f, receiver=Remoting connection EJB receiver [connection=Remoting connection <ceb8370>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID a202c0f3 (outbound) of Remoting connection 1b5c2887 to localhost/127.0.0.1:8080
+2017-08-17 15:49:07 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:50:37 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID a202c0f3 (outbound) of Remoting connection 1b5c2887 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:50:48 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:50:48 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:50:48 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:50:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:50:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:50:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@35ef367e, receiver=Remoting connection EJB receiver [connection=Remoting connection <4341df2a>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 808d3049 (outbound) of Remoting connection 664c1db8 to localhost/127.0.0.1:8080
+2017-08-17 15:50:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3381fda0, receiver=Remoting connection EJB receiver [connection=Remoting connection <46fbabbd>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f75ba996 (outbound) of Remoting connection 6f2e1e44 to localhost/127.0.0.1:8080
+2017-08-17 15:50:48 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:54:07 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:54:07 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1f345e7b, receiver=Remoting connection EJB receiver [connection=Remoting connection <4a35be53>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 9db8ba39 (outbound) of Remoting connection 69950624 to localhost/127.0.0.1:8080
+2017-08-17 15:54:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f75ba996 (outbound) of Remoting connection 6f2e1e44 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:54:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 808d3049 (outbound) of Remoting connection 664c1db8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:54:12 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 9db8ba39 (outbound) of Remoting connection 69950624 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:54:22 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:54:22 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:54:22 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:54:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:54:22 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:54:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@52177968, receiver=Remoting connection EJB receiver [connection=Remoting connection <3f8136f1>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8e629fa3 (outbound) of Remoting connection 57217374 to localhost/127.0.0.1:8080
+2017-08-17 15:54:22 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3d6dd359, receiver=Remoting connection EJB receiver [connection=Remoting connection <756e9e69>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID e59091b8 (outbound) of Remoting connection 6c7299e0 to localhost/127.0.0.1:8080
+2017-08-17 15:54:22 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:56:36 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID e59091b8 (outbound) of Remoting connection 6c7299e0 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:56:36 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8e629fa3 (outbound) of Remoting connection 57217374 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:56:46 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:56:46 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:56:46 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:56:46 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:56:46 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:56:46 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5c141a8, receiver=Remoting connection EJB receiver [connection=Remoting connection <739496a>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c8a1d13d (outbound) of Remoting connection 684dc6fe to localhost/127.0.0.1:8080
+2017-08-17 15:56:46 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@10aaa237, receiver=Remoting connection EJB receiver [connection=Remoting connection <7cf29f60>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID c0358bbe (outbound) of Remoting connection 6fceb206 to localhost/127.0.0.1:8080
+2017-08-17 15:56:46 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:58:53 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c0358bbe (outbound) of Remoting connection 6fceb206 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:58:53 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID c8a1d13d (outbound) of Remoting connection 684dc6fe to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 15:59:00 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 15:59:00 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 15:59:00 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 15:59:00 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:59:00 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:59:00 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1cec95fb, receiver=Remoting connection EJB receiver [connection=Remoting connection <1beb731>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID 8ab3c6c9 (outbound) of Remoting connection 7d6d5ce8 to localhost/127.0.0.1:8080
+2017-08-17 15:59:00 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@3ccfba6d, receiver=Remoting connection EJB receiver [connection=Remoting connection <6ffba761>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID bc0d584d (outbound) of Remoting connection 4fe0793c to localhost/127.0.0.1:8080
+2017-08-17 15:59:00 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 15:59:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:59:30 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 15:59:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@5b87389, receiver=Remoting connection EJB receiver [connection=Remoting connection <3e81af>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID ed2ae05b (outbound) of Remoting connection 25c08ec0 to localhost/127.0.0.1:8080
+2017-08-17 15:59:30 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@abec460, receiver=Remoting connection EJB receiver [connection=Remoting connection <5273a091>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID df384be4 (outbound) of Remoting connection 1e209f30 to localhost/127.0.0.1:8080
+2017-08-17 16:00:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID df384be4 (outbound) of Remoting connection 1e209f30 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:00:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID ed2ae05b (outbound) of Remoting connection 25c08ec0 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:00:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID bc0d584d (outbound) of Remoting connection 4fe0793c to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:00:22 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID 8ab3c6c9 (outbound) of Remoting connection 7d6d5ce8 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:02:08 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 16:02:08 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 16:02:08 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 16:02:08 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 16:02:08 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 16:02:08 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1c8ca044, receiver=Remoting connection EJB receiver [connection=Remoting connection <324a8eab>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID d5e90bb3 (outbound) of Remoting connection 0bbebf88 to localhost/127.0.0.1:8080
+2017-08-17 16:02:08 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@41689803, receiver=Remoting connection EJB receiver [connection=Remoting connection <2e8d183>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID cd7cc634 (outbound) of Remoting connection 5c0a0b9b to localhost/127.0.0.1:8080
+2017-08-17 16:02:08 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 16:04:48 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 16:04:48 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@d36def6, receiver=Remoting connection EJB receiver [connection=Remoting connection <6b3ea63c>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID f8093c3d (outbound) of Remoting connection 1ddbc583 to localhost/127.0.0.1:8080
+2017-08-17 16:08:13 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID d5e90bb3 (outbound) of Remoting connection 0bbebf88 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:08:13 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID cd7cc634 (outbound) of Remoting connection 5c0a0b9b to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:08:13 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID f8093c3d (outbound) of Remoting connection 1ddbc583 to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:21:03 INFO  xnio:93 - XNIO version 3.3.4.Final
+2017-08-17 16:21:03 INFO  nio:55 - XNIO NIO Implementation Version 3.3.4.Final
+2017-08-17 16:21:03 INFO  remoting:73 - JBoss Remoting version 4.0.18.Final
+2017-08-17 16:21:03 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 16:21:03 INFO  remoting:103 - EJBCLIENT000017: Received server version 2 and marshalling strategies [river]
+2017-08-17 16:21:03 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@9d03ab4, receiver=Remoting connection EJB receiver [connection=Remoting connection <4b544e7d>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b99c1183 (outbound) of Remoting connection 0a0abcff to localhost/127.0.0.1:8080
+2017-08-17 16:21:03 INFO  remoting:219 - EJBCLIENT000013: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@6d1845bd, receiver=Remoting connection EJB receiver [connection=Remoting connection <2a380860>,channel=jboss.ejb,nodename=desktop-9r8auhb]} on channel Channel ID b12fcc04 (outbound) of Remoting connection 7d56d808 to localhost/127.0.0.1:8080
+2017-08-17 16:21:03 INFO  client:45 - JBoss EJB Client version 2.1.4.Final
+2017-08-17 16:28:16 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b99c1183 (outbound) of Remoting connection 0a0abcff to localhost/127.0.0.1:8080 can no longer process messages
+2017-08-17 16:28:16 INFO  remoting:482 - EJBCLIENT000016: Channel Channel ID b12fcc04 (outbound) of Remoting connection 7d56d808 to localhost/127.0.0.1:8080 can no longer process messages

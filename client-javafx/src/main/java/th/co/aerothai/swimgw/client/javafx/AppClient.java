@@ -119,7 +119,7 @@ public class AppClient extends Application{
         loggingView.appendText("Starting Application");
         loggingView.setEditable(false);
     }
-//	public static void main(String[] args) {
-//		launch(args);
-//	}
+	public static void main(String[] args) {
+		launch(args);
+	}
 }

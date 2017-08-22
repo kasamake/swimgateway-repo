@@ -1,0 +1,1038 @@
+2017-08-17 19:21:35 INFO  ConsoleController:44 - Test adding info
+2017-08-17 19:21:35 ERROR ConsoleController:45 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-17 19:21:36 INFO  ConsoleController:44 - Test adding info
+2017-08-17 19:21:36 ERROR ConsoleController:45 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-17 19:21:36 INFO  ConsoleController:44 - Test adding info
+2017-08-17 19:21:36 ERROR ConsoleController:45 - Test adding error long long long long long long long long long long long long long long long long long long long long long
+2017-08-17 22:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:32:48 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 22:32:48 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 22:32:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 22:32:48 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 22:32:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 22:32:48 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 22:34:04 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:34:04 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:34:04 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:34:04 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 22:34:04 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 22:34:04 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 22:34:04 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 22:34:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 22:34:04 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 22:43:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:43:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:43:15 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:43:15 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 22:43:15 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 22:43:15 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 22:43:15 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 22:43:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 22:43:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 22:49:43 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:49:43 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:49:43 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:49:43 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 22:49:43 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 22:49:43 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 22:49:43 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 22:49:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 22:49:43 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 22:54:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:54:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:54:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 22:54:49 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 22:54:49 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 22:54:49 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 22:54:49 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 22:54:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 22:54:49 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:03:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:03:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:03:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:03:27 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:03:27 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:03:27 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:03:27 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:03:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:03:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:07:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:07:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:07:12 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:07:12 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:07:12 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:07:12 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:07:12 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:07:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:07:12 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:12:30 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:12:30 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:12:30 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:12:30 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:12:30 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:12:30 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:12:30 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:12:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:12:30 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:14:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:37 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:37 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:14:37 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:14:37 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:14:37 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:14:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:14:37 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:14:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:14:48 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:14:48 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:14:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:14:48 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:14:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:14:48 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:15:20 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:15:20 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:15:20 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:15:20 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:15:20 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:15:20 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:15:20 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:15:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:15:20 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:17:25 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:17:25 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:17:25 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:17:25 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:17:25 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:17:25 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:17:25 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:17:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:17:26 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:21:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:21:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:21:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:21:48 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:21:48 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:21:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:21:48 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:21:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:21:48 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:21:48 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:21:48 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:21:48 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:21:48 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:21:48 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:21:48 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:21:48 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:27:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:27:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:27:26 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:27:26 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:27:26 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:27:26 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:27:26 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:27:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:27:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:27:27 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:27:27 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:27:27 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:27:27 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:27:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:27:27 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:27:27 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:28:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:28:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:28:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:28:40 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:28:40 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:28:40 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:28:40 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:28:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:28:40 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:28:40 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:28:40 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:28:40 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:28:40 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:28:40 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:28:40 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:28:40 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:31:41 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:41 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:41 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:41 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:31:41 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:31:41 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:31:41 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:31:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:31:41 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:31:41 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:31:41 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:31:41 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:31:41 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:31:42 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:31:42 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:31:42 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:31:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:51 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:31:51 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:31:51 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:31:51 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:31:51 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:31:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:31:51 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:31:51 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:31:51 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:31:51 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:31:51 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:31:51 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:31:51 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:31:51 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:06 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:06 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:06 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:06 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:06 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:06 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:06 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:06 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:06 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:06 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:06 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:13 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:13 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:13 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:13 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:13 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:13 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:13 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:14 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:14 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:14 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:14 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:14 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:14 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:14 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:14 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:31 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:31 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:31 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:31 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:31 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:31 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:31 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:31 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:31 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:31 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:31 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:31 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:31 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:38 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:38 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:38 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:38 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:38 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:38 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:38 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:38 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:38 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:38 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:38 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:48 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:48 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:48 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:48 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:48 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:48 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:48 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:48 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:48 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:48 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:48 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:48 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:32:55 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:55 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:55 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:32:55 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-example
+	...]
+2017-08-17 23:32:55 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:32:55 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:32:55 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:32:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:32:56 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:32:56 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:32:56 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:32:56 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:32:56 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:32:56 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:32:56 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:32:56 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:34:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:34:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:34:02 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:34:02 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:34:03 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:34:03 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:34:03 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:34:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:34:03 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:34:03 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:34:03 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:34:03 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:34:03 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:34:03 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:34:03 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:34:03 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:41:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:41:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:41:27 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:41:27 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:41:27 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:41:27 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:41:27 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:41:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:41:27 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:41:27 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:41:27 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:41:27 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:41:27 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:41:27 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:41:27 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:41:27 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:49:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:49:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:49:38 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:49:38 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:49:38 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:49:38 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:49:38 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:49:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:49:38 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:49:38 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:49:38 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:49:38 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:49:38 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:49:38 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:49:38 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:49:38 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:52:18 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:52:18 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:52:18 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:52:18 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:52:18 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:52:18 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:52:18 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:52:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:52:18 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:52:18 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:52:18 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:52:18 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:52:18 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:52:18 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:52:18 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:52:18 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:53:35 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:53:35 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:53:35 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:53:35 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:53:35 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:53:35 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:53:35 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:53:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:53:35 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:53:35 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:53:35 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:53:35 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:53:35 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:53:35 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:53:35 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:53:35 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:56:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:06 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:56:06 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:56:06 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:56:06 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:56:07 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:56:07 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:56:07 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:56:07 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:56:07 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:56:07 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:56:07 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:56:07 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:56:07 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:56:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:23 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:56:23 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:56:23 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:56:23 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:56:23 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:56:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:56:23 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:56:23 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:56:23 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:56:23 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:56:23 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:56:23 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:56:23 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:56:23 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-17 23:57:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:57:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:57:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-17 23:57:14 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-17 23:57:14 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-17 23:57:14 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-17 23:57:14 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-17 23:57:14 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-17 23:57:14 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-17 23:57:14 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-17 23:57:14 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-17 23:57:14 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-17 23:57:14 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-17 23:57:14 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-17 23:57:14 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-17 23:57:14 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:01:03 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:03 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:03 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:31 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:01:31 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:01:31 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:01:31 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:01:31 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:01:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:01:32 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:01:32 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:01:32 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:01:32 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:01:32 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:01:32 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:01:32 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:01:32 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:01:32 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:04:16 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:04:16 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:04:16 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:04:16 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:04:16 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:04:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:04:16 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:04:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:04:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:04:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:04:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:04:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:04:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:04:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:04:16 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:04:16 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:04:17 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:07:32 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:07:32 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:07:32 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:07:32 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:07:32 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:07:32 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:07:32 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:07:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:07:33 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:07:33 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:07:33 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:07:33 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:07:33 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:07:33 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:07:33 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:07:33 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:07:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:08:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:14 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:14 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:08:14 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:08:14 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:08:14 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:08:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:08:15 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:08:15 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:08:15 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:08:15 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:08:15 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:08:15 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:08:15 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:08:15 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:08:15 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:08:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:28 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:08:29 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:08:29 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:08:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:08:29 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:08:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:08:29 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:08:29 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:08:29 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:08:29 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:08:29 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:08:29 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:08:29 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:08:29 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:08:29 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:09:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:09:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:09:49 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:09:49 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:09:49 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:09:49 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:09:49 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:09:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:09:50 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:09:50 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:09:50 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:09:50 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:09:50 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:09:50 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:09:50 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:09:50 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:09:50 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:18:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:18:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:18:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 00:18:06 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 00:18:06 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 00:18:06 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 00:18:06 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 00:18:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 00:18:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 00:18:06 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 00:18:06 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 00:18:06 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 00:18:06 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 00:18:06 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 00:18:06 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 00:18:07 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 00:18:07 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 11:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 11:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 11:37:40 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 11:37:41 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 11:37:41 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 11:37:41 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 11:37:41 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 11:37:41 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 11:37:41 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 11:37:41 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 11:37:41 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 11:37:41 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 11:37:41 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 11:37:41 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 11:37:41 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 11:37:41 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 11:37:41 INFO  DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 11:37:41 INFO  Main:73 - Message:has been sent to FIXM successfully VTBBYUAA -> VTBBSWIM (FPL)170818043548Z
+2017-08-18 13:36:52 INFO  Main:73 - Message:has been sent to FIXM successfully VTBBYUAA -> VTBBSWIM (FPL)170818063246Z
+2017-08-18 13:36:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:36:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:36:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:36:52 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 13:36:52 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 13:36:52 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 13:36:52 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 13:36:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 13:36:52 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 13:36:52 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 13:36:52 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 13:36:52 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 13:36:52 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 13:36:52 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 13:36:52 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 13:36:52 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 13:36:53 INFO  Main:104 - Message:has been sent to WXXM successfully VTBBYUAA -> VTBBSWIM (SA)170818063306Z
+2017-08-18 13:59:52 INFO  Main:104 - Message:has been sent to WXXM successfully VTBBYUAA -> VTBBSWIM (SA)170818065629Z
+2017-08-18 13:59:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:59:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:59:52 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 13:59:53 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 13:59:53 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 13:59:53 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 13:59:53 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 13:59:53 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 13:59:53 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 13:59:53 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 13:59:53 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 13:59:53 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 13:59:53 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 13:59:53 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 13:59:53 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 13:59:53 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 13:59:53 INFO  Main:73 - Message:has been sent to FIXM successfully VTBBYUAA -> VTBBSWIM (FPL)170818065734Z
+2017-08-18 15:02:57 INFO  Producer:41 - jms-client-producer-aixm: create connection to AMHS2AIXM
+2017-08-18 15:02:57 INFO  Producer:41 - jms-client-producer-fixm: create connection to AMHS2FIXM
+2017-08-18 15:02:57 INFO  Producer:41 - jms-client-producer-wxxm: create connection to AMHS2WXXM
+2017-08-18 15:02:57 INFO  Main:109 - Message:has been sent to WXXM successfully VTBBYUAA -> VTBBSWIM (FT)170818080103Z
+2017-08-18 15:02:57 INFO  Producer:179 - jms-client-producer-wxxm: sent message with text= <?xml version="1.0" encoding="UTF-8" standalone="yes"?><msgbox><id>0</id><atsEncode>ia5-text</atsEncode><attachcount>1</attachcount><ipmId>6984.10 170818080103Z*/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</ipmId><ipnRequest>false</ipnRequest><msgBcc></msgBcc><msgCc></msgCc><msgOrgn>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</msgOrgn><msgOrgn2>VTBBYUAA</msgOrgn2><msgPriority>0</msgPriority><msgSubject>Fwd: </msgSubject><msgText>PRI: FF
+FT: 180800
+FTXX99 VTBB 170838 TAF VTBS 170430Z 1800/2000 08005KT 9999 FEW020
+SCT035 BECMG 1800/1810   FEW025 BECMG 1820/1920 FEW020 SCT035 BECMG
+1920/2000 FEW025= TAF VTBD 170500Z 1706/1812 19008KT 9999 FEW020
+SCT100 TEMPO 1708/1712   22012KT 6000 -TSRA FEW018CB SCT030 BKN100
+BECMG 1716/1718 14005KT   FEW020 BECMG 1803/1805 22008KT TEMPO
+1808/1812 26015KT 6000 -TSRA   FEW018CB SCT030=</msgText><msgTo>VTBBSWIM</msgTo><msgType>FT</msgType><msgread>false</msgread><msgsqn>689</msgsqn><mtsId>[/PRMD=THAILAND/ADMD=ICAO/C=XX/;hkamhs.0799201-170818.080103]</mtsId><pAltRcpAllow>false</pAltRcpAllow><pContReturn>false</pContReturn><pConvLossPhb>false</pConvLossPhb><pDlExpPhb>false</pDlExpPhb><pImpConvPhb>false</pImpConvPhb><pRcpDisc>false</pRcpDisc><pRcpRasgPhb>false</pRcpRasgPhb><rcpcount>2</rcpcount><receivetime>170818080103Z</receivetime><rowdelete>false</rowdelete><traceinfo>1. /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-18 08:01:03Z</traceinfo><traceinfointernal>1. hkamhs : /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-18 08:01:03Z </traceinfointernal><atsEncodeAtt>0</atsEncodeAtt><msgboxrecipients><msgboxrecipient><aliasname>VTBBSWIM</aliasname><oraddress>/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>PRIMARY</recipienttype></msgboxrecipient><msgboxrecipient><aliasname>VTBBYUAA</aliasname><oraddress>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>ORIGINATOR</recipienttype></msgboxrecipient></msgboxrecipients><msgboxattachments><msgboxattachment><bfile>AVBSSTogRkYNCkZUOiAxODA4MDANCgJGVFhYOTkgVlRCQiAxNzA4MzgNIFRBRiBWVEJTIDE3MDQzMFogMTgwMC8yMDAwIDA4MDA1S1QgOTk5OSBGRVcwMjAKU0NUMDM1IEJFQ01HIDE4MDAvMTgxMA0gICBGRVcwMjUgQkVDTUcgMTgyMC8xOTIwIEZFVzAyMCBTQ1QwMzUgQkVDTUcKMTkyMC8yMDAwIEZFVzAyNT0NIFRBRiBWVEJEIDE3MDUwMFogMTcwNi8xODEyIDE5MDA4S1QgOTk5OSBGRVcwMjAKU0NUMTAwIFRFTVBPIDE3MDgvMTcxMg0gICAyMjAxMktUIDYwMDAgLVRTUkEgRkVXMDE4Q0IgU0NUMDMwIEJLTjEwMApCRUNNRyAxNzE2LzE3MTggMTQwMDVLVA0gICBGRVcwMjAgQkVDTUcgMTgwMy8xODA1IDIyMDA4S1QgVEVNUE8KMTgwOC8xODEyIDI2MDE1S1QgNjAwMCAtVFNSQQ0gICBGRVcwMThDQiBTQ1QwMzA9</bfile><filename>IA5 Text</filename><filesize>405</filesize><filetype>401</filetype></msgboxattachment></msgboxattachments></msgbox>
+2017-08-18 15:02:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 15:02:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 15:02:57 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-18 15:02:57 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-18 15:02:57 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-18 15:02:57 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-18 15:02:57 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-18 15:02:57 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-18 15:02:57 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-18 15:02:57 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-18 15:02:57 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-18 15:02:57 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-18 15:02:57 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-18 15:02:57 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-18 15:02:57 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-18 15:02:57 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-18 15:02:58 INFO  Main:83 - Message:has been sent to FIXM successfully VTBBYUAA -> VTBBSWIM (FPL)170818080120Z
+2017-08-18 15:02:58 INFO  Producer:179 - jms-client-producer-fixm: sent message with text= <?xml version="1.0" encoding="UTF-8" standalone="yes"?><msgbox><id>0</id><atsEncode>ia5-text</atsEncode><attachcount>1</attachcount><ipmId>6984.11 170818080120Z*/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</ipmId><ipnRequest>false</ipnRequest><msgBcc></msgBcc><msgCc></msgCc><msgOrgn>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</msgOrgn><msgOrgn2>VTBBYUAA</msgOrgn2><msgPriority>0</msgPriority><msgSubject>Fwd: Fwd: Test logging  [sent from Gateway]  [sent from Gateway]</msgSubject><msgText>PRI: FF
+FT: 180801
+(FPL-AIQ320-IS
+-A320/M-SFDGHIRW/SD
+-WMKK0825
+-N0463F360 AGOSA1N AGOSA A457 VPG/N0465F350 A457 VAS M769
+RIGTO/N0463F360 M769 SURMA
+-VTBD0157 VTBU VTBS
+-EET/VTBB0043 REG/HSABY SEL/CJHQ COM/L B1 NAV/RNAV10 RNP10 A1 RNAV5
+B1 RNAV2 C1 RNAV1 D1 RNP4 L1 RNP1 O1 RNP APCH BARO VNAV S2
+CODE/880459 RMK/TCAS II EQUIPPED FDMC CONVERT DOF/17)</msgText><msgTo>VTBBSWIM</msgTo><msgType>FPL</msgType><msgread>false</msgread><msgsqn>690</msgsqn><mtsId>[/PRMD=THAILAND/ADMD=ICAO/C=XX/;hkamhs.0176401-170818.080120]</mtsId><pAltRcpAllow>false</pAltRcpAllow><pContReturn>false</pContReturn><pConvLossPhb>false</pConvLossPhb><pDlExpPhb>false</pDlExpPhb><pImpConvPhb>false</pImpConvPhb><pRcpDisc>false</pRcpDisc><pRcpRasgPhb>false</pRcpRasgPhb><rcpcount>2</rcpcount><receivetime>170818080120Z</receivetime><rowdelete>false</rowdelete><traceinfo>1. /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-18 08:01:20Z</traceinfo><traceinfointernal>1. hkamhs : /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-18 08:01:20Z </traceinfointernal><atsEncodeAtt>0</atsEncodeAtt><msgboxrecipients><msgboxrecipient><aliasname>VTBBSWIM</aliasname><oraddress>/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>PRIMARY</recipienttype></msgboxrecipient><msgboxrecipient><aliasname>VTBBYUAA</aliasname><oraddress>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>ORIGINATOR</recipienttype></msgboxrecipient></msgboxrecipients><msgboxattachments><msgboxattachment><bfile>AVBSSTogRkYNCkZUOiAxODA4MDENCgIoRlBMLUFJUTMyMC1JUw0KLUEzMjAvTS1TRkRHSElSVy9TRA0KLVdNS0swODI1DQotTjA0NjNGMzYwIEFHT1NBMU4gQUdPU0EgQTQ1NyBWUEcvTjA0NjVGMzUwIEE0NTcgVkFTIE03NjkNClJJR1RPL04wNDYzRjM2MCBNNzY5IFNVUk1BDQotVlRCRDAxNTcgVlRCVSBWVEJTDQotRUVUL1ZUQkIwMDQzIFJFRy9IU0FCWSBTRUwvQ0pIUSBDT00vTCBCMSBOQVYvUk5BVjEwIFJOUDEwIEExIFJOQVY1DQpCMSBSTkFWMiBDMSBSTkFWMSBEMSBSTlA0IEwxIFJOUDEgTzEgUk5QIEFQQ0ggQkFSTyBWTkFWIFMyDQpDT0RFLzg4MDQ1OSBSTUsvVENBUyBJSSBFUVVJUFBFRCBGRE1DIENPTlZFUlQgRE9GLzE3KQ==</bfile><filename>IA5 Text</filename><filesize>361</filesize><filetype>401</filetype></msgboxattachment></msgboxattachments></msgbox>
+2017-08-20 15:23:20 INFO  Producer:45 - jms-client-producer: create connection to ActiveMQ
+2017-08-20 16:13:53 INFO  Producer:45 - jms-client-producer: create connection to ActiveMQ
+2017-08-21 08:34:32 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:35:05 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:42:03 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:42:18 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:42:31 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:42:35 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:43:26 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:46:07 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:48:00 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:48:05 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:48:06 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 08:48:10 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:14:41 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:16:27 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:16:31 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:20:09 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:21:46 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:26:57 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:28:35 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:32:53 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:34:57 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:37:38 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:39:36 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:40:52 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:42:31 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:43:58 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:51:05 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:53:30 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:55:16 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:55:41 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:57:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 09:59:32 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:09:28 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:15:59 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:16:48 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:18:36 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:23:03 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:24:03 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:26:21 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:28:05 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:28:06 INFO  Producer:109 - Sent message with text= <?xml version="1.0" encoding="UTF-8" standalone="yes"?><msgbox><id>0</id><atsEncode>ia5-text</atsEncode><attachcount>1</attachcount><ipmId>6876.0 170821032542Z*/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</ipmId><ipnRequest>false</ipnRequest><msgBcc></msgBcc><msgCc></msgCc><msgOrgn>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</msgOrgn><msgOrgn2>VTBBYUAA</msgOrgn2><msgPriority>0</msgPriority><msgSubject>Fwd: Fwd: Fwd: Test logging  [sent from Gateway]  [sent from Gateway]  [sent from Gateway]  [sent from Gateway]</msgSubject><msgText>PRI: FF
+FT: 210325
+(FPL-AIQ320-IS
+-A320/M-SFDGHIRW/SD
+-WMKK0825
+-N0463F360 AGOSA1N AGOSA A457 VPG/N0465F350 A457 VAS M769
+RIGTO/N0463F360 M769 SURMA
+-VTBD0157 VTBU VTBS
+-EET/VTBB0043 REG/HSABY SEL/CJHQ COM/L B1 NAV/RNAV10 RNP10 A1 RNAV5
+B1 RNAV2 C1 RNAV1 D1 RNP4 L1 RNP1 O1 RNP APCH BARO VNAV S2
+CODE/880459 RMK/TCAS II EQUIPPED FDMC CONVERT DOF/1)</msgText><msgTo>VTBBSWIM</msgTo><msgType>FPL</msgType><msgread>false</msgread><msgsqn>691</msgsqn><mtsId>[/PRMD=THAILAND/ADMD=ICAO/C=XX/;hkamhs.0540801-170821.032542]</mtsId><pAltRcpAllow>false</pAltRcpAllow><pContReturn>false</pContReturn><pConvLossPhb>false</pConvLossPhb><pDlExpPhb>false</pDlExpPhb><pImpConvPhb>false</pImpConvPhb><pRcpDisc>false</pRcpDisc><pRcpRasgPhb>false</pRcpRasgPhb><rcpcount>2</rcpcount><receivetime>170821032542Z</receivetime><rowdelete>false</rowdelete><traceinfo>1. /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-21 03:25:42Z</traceinfo><traceinfointernal>1. hkamhs : /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-21 03:25:42Z </traceinfointernal><atsEncodeAtt>0</atsEncodeAtt><msgboxrecipients><msgboxrecipient><aliasname>VTBBSWIM</aliasname><oraddress>/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>PRIMARY</recipienttype></msgboxrecipient><msgboxrecipient><aliasname>VTBBYUAA</aliasname><oraddress>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>ORIGINATOR</recipienttype></msgboxrecipient></msgboxrecipients><msgboxattachments><msgboxattachment><bfile>AVBSSTogRkYNCkZUOiAyMTAzMjUNCgIoRlBMLUFJUTMyMC1JUw0KLUEzMjAvTS1TRkRHSElSVy9TRA0KLVdNS0swODI1DQotTjA0NjNGMzYwIEFHT1NBMU4gQUdPU0EgQTQ1NyBWUEcvTjA0NjVGMzUwIEE0NTcgVkFTIE03NjkNClJJR1RPL04wNDYzRjM2MCBNNzY5IFNVUk1BDQotVlRCRDAxNTcgVlRCVSBWVEJTDQotRUVUL1ZUQkIwMDQzIFJFRy9IU0FCWSBTRUwvQ0pIUSBDT00vTCBCMSBOQVYvUk5BVjEwIFJOUDEwIEExIFJOQVY1DQpCMSBSTkFWMiBDMSBSTkFWMSBEMSBSTlA0IEwxIFJOUDEgTzEgUk5QIEFQQ0ggQkFSTyBWTkFWIFMyDQpDT0RFLzg4MDQ1OSBSTUsvVENBUyBJSSBFUVVJUFBFRCBGRE1DIENPTlZFUlQgRE9GLzEp</bfile><filename>IA5 Text</filename><filesize>360</filesize><filetype>401</filetype></msgboxattachment></msgboxattachments></msgbox>
+2017-08-21 10:28:06 INFO  ServiceController:172 - Message: VTBBYUAA -> VTBBSWIM (FPL)170821032542Z has been sent to FIXM successfully
+2017-08-21 10:28:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-21 10:28:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-21 10:28:06 WARN  HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+2017-08-21 10:28:06 INFO  LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: jpa-swimgw
+	...]
+2017-08-21 10:28:06 INFO  Version:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-08-21 10:28:06 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-08-21 10:28:06 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2017-08-21 10:28:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-08-21 10:28:06 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-21 10:28:06 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://172.16.21.134:1433;databaseName=SWIMGW]
+2017-08-21 10:28:06 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {user=mstore, password=****}
+2017-08-21 10:28:06 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2017-08-21 10:28:06 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-21 10:28:06 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-08-21 10:28:06 INFO  LobCreatorBuilder:88 - HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-21 10:28:06 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-08-21 10:28:07 INFO  Producer:109 - Sent message with text= <?xml version="1.0" encoding="UTF-8" standalone="yes"?><msgbox><id>0</id><atsEncode>ia5-text</atsEncode><attachcount>1</attachcount><ipmId>6876.1 170821032610Z*/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</ipmId><ipnRequest>false</ipnRequest><msgBcc></msgBcc><msgCc></msgCc><msgOrgn>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</msgOrgn><msgOrgn2>VTBBYUAA</msgOrgn2><msgPriority>0</msgPriority><msgSubject>Fwd:   [sent from Gateway]</msgSubject><msgText>PRI: FF
+FT: 210326
+SAXX99 VTBB 170838
+METAR VTBS 170830Z 18012KT 150V210 9999 FEW020 30/23 Q1003 NOSIG=</msgText><msgTo>VTBBSWIM</msgTo><msgType>SA</msgType><msgread>false</msgread><msgsqn>692</msgsqn><mtsId>[/PRMD=THAILAND/ADMD=ICAO/C=XX/;hkamhs.0905201-170821.032610]</mtsId><pAltRcpAllow>false</pAltRcpAllow><pContReturn>false</pContReturn><pConvLossPhb>false</pConvLossPhb><pDlExpPhb>false</pDlExpPhb><pImpConvPhb>false</pImpConvPhb><pRcpDisc>false</pRcpDisc><pRcpRasgPhb>false</pRcpRasgPhb><rcpcount>2</rcpcount><receivetime>170821032610Z</receivetime><rowdelete>false</rowdelete><traceinfo>1. /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-21 03:26:10Z</traceinfo><traceinfointernal>1. hkamhs : /PRMD=THAILAND/ADMD=ICAO/C=XX/, Relayed, 17-08-21 03:26:10Z </traceinfointernal><atsEncodeAtt>0</atsEncodeAtt><msgboxrecipients><msgboxrecipient><aliasname>VTBBSWIM</aliasname><oraddress>/CN=VTBBSWIM/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>PRIMARY</recipienttype></msgboxrecipient><msgboxrecipient><aliasname>VTBBYUAA</aliasname><oraddress>/CN=VTBBYUAA/OU=VTBB/O=VTBB/PRMD=THAILAND/ADMD=ICAO/C=XX/</oraddress><recipienttype>ORIGINATOR</recipienttype></msgboxrecipient></msgboxrecipients><msgboxattachments><msgboxattachment><bfile>AVBSSTogRkYNCkZUOiAyMTAzMjYNCgJTQVhYOTkgVlRCQiAxNzA4MzgNCk1FVEFSIFZUQlMgMTcwODMwWiAxODAxMktUIDE1MFYyMTAgOTk5OSBGRVcwMjAgMzAvMjMgUTEwMDMgTk9TSUc9</bfile><filename>IA5 Text</filename><filesize>108</filesize><filetype>401</filetype></msgboxattachment></msgboxattachments></msgbox>
+2017-08-21 10:28:07 INFO  ServiceController:206 - Message: VTBBYUAA -> VTBBSWIM (SA)170821032610Z has been sent to WXXM successfully
+2017-08-21 10:40:34 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:41:40 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:42:26 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:46:36 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 10:56:53 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 13:56:31 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 13:56:54 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:33:19 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:34:16 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:34:28 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:35:09 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:35:53 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:36:07 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:37:07 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:37:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:37:22 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:37:26 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:43:39 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:04 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 14:44:04 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:09 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:19 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:24 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:29 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:34 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:39 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:44 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:49 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:54 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:44:59 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:45:04 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:54:36 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:54:48 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 14:54:51 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 14:55:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:21 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 15:00:24 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:29 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:34 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:39 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:44 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:49 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:54 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:00:59 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:01:04 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:01:09 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:13:09 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:13:25 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:13:44 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 15:13:46 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:13:51 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:13:56 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:14:16 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:16:20 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:16:25 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:21:59 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:22:13 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 15:22:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:22:19 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:22:24 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:04 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:13 ERROR Producer:67 - ExceptionListener triggered: Software caused connection abort: recv failed
+javax.jms.JMSException: Software caused connection abort: recv failed
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1952)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1971)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 more
+2017-08-21 15:25:14 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:19 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:24 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:29 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:34 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:39 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:44 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:49 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:54 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:25:59 INFO  Producer:44 - jms-client: create connection to ActiveMQ
+2017-08-21 15:38:21 INFO  Producer:44 - jms-client: create connection to ActiveMQ

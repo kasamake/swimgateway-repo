@@ -21,7 +21,9 @@ public abstract interface IRemoteX400Utils
   
   public abstract int sendMsgbox(Msgbox msgbox);
   
-  public abstract List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential);
+  public abstract List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) throws Exception;
 
   public abstract int sendMsgbox(Msgbox msgbox, String or, String dn, String pa, String credential);
+  
+  public abstract boolean testConnection (String or, String dn, String pa, String credential);
 }

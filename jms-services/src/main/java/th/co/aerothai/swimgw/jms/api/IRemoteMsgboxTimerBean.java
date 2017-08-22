@@ -4,7 +4,7 @@ import javax.ejb.Remote;
 
 @Remote
 public interface IRemoteMsgboxTimerBean {
-	public abstract void openConnection();
+	public abstract int openConnection();
 	public abstract void closeConnection();
 	public abstract void atSchedule ();
 //	public abstract String checkMessageType(String msgtxt);
@@ -17,4 +17,8 @@ public interface IRemoteMsgboxTimerBean {
 	public abstract void setClient(String client);
 	public abstract void setUsername(String username);
 	public abstract void setPassword(String password);
+	
+	public abstract boolean isRunning();
+//	public abstract boolean pingSWIM();
+//	public abstract boolean isTestAMHS();
 }

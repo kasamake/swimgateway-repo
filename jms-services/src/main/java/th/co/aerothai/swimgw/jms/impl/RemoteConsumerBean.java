@@ -68,6 +68,7 @@ public class RemoteConsumerBean implements IRemoteConsumerBean {
 	public void closeConnection()  {
 		LOGGER.info("Close Connection");
 		try {
+			if(consumer!=null)
 			consumer.closeConnection();
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
@@ -145,5 +146,23 @@ public class RemoteConsumerBean implements IRemoteConsumerBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	@Override
+	public boolean testConnection(String broker, String client, String username, String password) {
 
+//		if(retries > 3) 
+//			return false;
+
+		
+		// create a Connection Factory
+		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker);
+		Connection connection;
+			try {
+				connection = connectionFactory.createConnection(username, password);
+				connection.close();
+				return true;
+			} catch (JMSException e) {
+				return false;
+			}
+
+	}	
 }

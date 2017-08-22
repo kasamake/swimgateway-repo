@@ -1,6 +1,7 @@
 package th.co.aerothai.swimgw.services.impl;
 
 import com.isode.x400api.Session;
+import com.isode.x400api.X400_att;
 import com.isode.x400api.X400ms;
 import java.io.PrintStream;
 import java.util.List;
@@ -53,8 +54,15 @@ public class X400UtilsBean implements IX400Utils {
 	}
 
 	@Override
-	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) {
+	public List<Msgbox> getMsgBoxBeanList(String or, String dn, String pa, String credential) throws Exception{
 		// TODO Auto-generated method stub
 		return RcvUtils.getMsgboxBeanList(or, dn, pa, credential);
+	}
+	@Override
+	public boolean testConnection(String or, String dn, String pa, String credential) {
+		if (RcvUtils.testConnection(or, dn, pa, credential) == X400_att.X400_E_NOERROR) {
+			return true;
+		}
+		return false;
 	}
 }
