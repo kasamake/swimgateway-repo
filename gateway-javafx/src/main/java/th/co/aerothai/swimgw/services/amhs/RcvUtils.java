@@ -384,7 +384,7 @@ public class RcvUtils {
 //	  }
 //	}
 	
-	public static List<Msgbox> getMsgboxBeanList(String or, String dn, String pa, String credential) throws RcvUtilsException {
+	public static List<Msgbox> getMsgboxBeanList(String or, String dn, String pa, String credential) throws X400UtilsException {
 
 		Session session_obj = new Session();
 		int type = 0;
@@ -407,10 +407,10 @@ public class RcvUtils {
 			close_status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
 			if (close_status != X400_att.X400_E_NOERROR) {
 //				System.out.println("x400_ms_close failed " + status);
-				throw new RcvUtilsException ("x400_ms_close failed: ", close_status);
+				throw new X400UtilsException ("x400_ms_close failed: ", close_status);
 			}
 //			System.out.println("Closed MS Session successfully\n");
-			throw new RcvUtilsException ("Message store connection failed and closed successfully: ", status);
+			throw new X400UtilsException ("Message store connection failed and closed successfully: ", status);
 //			return null;
 		}
 		System.out.println("Opened MS session successfully, " + session_obj.GetNumMsgs() + " messages waiting");
@@ -1288,7 +1288,7 @@ public class RcvUtils {
 		msgBox.setMsgCc(msgcc.trim());
 		msgBox.setMsgBcc(msgbcc.trim());
 		msgBox.setMsgOrgn2(origin.trim());
-		System.out.println("msgBoxRecipients size: "+msgBoxRecipients.size());
+//		System.out.println("msgBoxRecipients size: "+msgBoxRecipients.size());
 		msgBox.setRcpcount(msgBoxRecipients.size());
 		msgBox.setMsgboxrecipients(msgBoxRecipients);
 		return msgBox;
@@ -2463,6 +2463,10 @@ public class RcvUtils {
 			System.out.println(
 					"Got BodyPart string value(" + ret_value.capacity() + "): bp value is \n" + ret_value.toString());
 			msgBox.setMsgText(ret_value.toString());
+			
+			String headText = msgBox.getMsgText().substring(msgBox.getMsgText().indexOf("\u0001"), msgBox.getMsgText().indexOf("\u0002"));
+			msgBox.setAtsFilingtime(headText.substring(headText.length()-8, headText.length()-2));
+			msgBox.setAtsPriority(headText.substring(6, 8));
 			
 			byte[] textBytes = ret_value.toString().getBytes();
 			msgBoxAttachment.setFilesize(textBytes.length);

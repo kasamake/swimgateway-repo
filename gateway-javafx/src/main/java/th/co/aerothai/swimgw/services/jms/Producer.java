@@ -41,7 +41,7 @@ public class Producer {
 
 	public void create(String broker, String client, String username, String password) throws JMSException {
 
-		logger.info(client + ": create connection to ActiveMQ");
+//		logger.info(client + ": create connection to ActiveMQ");
 		
 		// create a Connection Factory
 		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker);
@@ -64,7 +64,7 @@ public class Producer {
 //	        });
 			connection.setExceptionListener(new ExceptionListener() {
 	            public void onException(JMSException exception) {
-	                logger.error("ExceptionListener triggered: " + exception.getMessage(), exception);
+	                logger.error("ExceptionListener triggered: " + exception.getMessage());
 	                connectionLost = true;
 	            }
 	        });
@@ -82,10 +82,35 @@ public class Producer {
 		
 	}
 
+	
+	public boolean testConnection(String broker, String client, String username, String password) {
+
+		
+		// create a Connection Factory
+		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker);
+
+			try {
+				connection = connectionFactory.createConnection(username, password);
+				connection.setClientID(client);
+				connection.start();
+				session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
+				closeConnection();
+				return true;
+			} catch (JMSException e) {
+//				System.out.println("Failed connecting to ActiveMQ");
+				return false;
+			}
+			
+
+
+	}
 	public void closeConnection() throws JMSException {
-		logger.info("Close Connection for producer");
-		if(connection!=null)
-		connection.close();
+//		logger.info("Close Connection for producer");
+		if(connection!=null) {
+			connection.close();
+		}
+		return;
 	}
 
 
@@ -107,7 +132,7 @@ public class Producer {
 		default:
 			break;
 		}
-		logger.info("Sent message with text= "+text);
+//		logger.info("Sent message with text= "+text);
 	}
 
 	public boolean isConnectionLost() {

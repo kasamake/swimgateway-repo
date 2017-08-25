@@ -13,6 +13,7 @@ import javax.jms.MessageListener;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 import javax.jms.Topic;
+import javax.xml.bind.JAXBException;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
@@ -25,6 +26,7 @@ import th.co.aerothai.swimgw.models.MsgboxBean;
 import th.co.aerothai.swimgw.models.Msgboxrecipient;
 import th.co.aerothai.swimgw.services.amhs.ConvertorBean;
 import th.co.aerothai.swimgw.services.amhs.SendUtils;
+import th.co.aerothai.swimgw.services.amhs.X400UtilsException;
 
 
 public class Consumer {
@@ -40,7 +42,7 @@ public class Consumer {
 	
 //	private static final Logger LOGGER = LoggerFactory.getLogger(Consumer.class);
 
-	private Logger logger = Logger.getLogger(Producer.class);
+	private Logger logger = Logger.getLogger(Consumer.class);
 	private static final String NO_MESSAGE = "no message";
 
 //	private String clientId;
@@ -49,36 +51,11 @@ public class Consumer {
 	private MessageConsumer messageConsumer;
 //	private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
 //	 private static String url = "tcp://172.16.21.206:61616";
-		private boolean connectionLost = false;
-//	public void create(String clientId, String queueName) throws JMSException {
-//		logger.info("Start Connection");
-//		this.clientId = clientId;
-//
-//		// create a Connection Factory
-//		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(url);
-//
-//		// create a Connection
-////		connection = connectionFactory.createConnection();
-//        connection = connectionFactory.createConnection("karaf", "karaf");
-//		connection.setClientID(clientId);
-//
-//		// create a Session
-//		session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-//
-//		// create the Topic from which messages will be received
-//		// Topic topic = session.createTopic(topicName);
-//		// Create the destination (Topic or Queue)
-//		Destination destination = session.createQueue(queueName);
-//
-//		// create a MessageConsumer for receiving messages
-//		messageConsumer = session.createConsumer(destination);
-//
-//		// start the connection in order to receive messages
-//		connection.start();
-//	}
+		private boolean swimConnectionLost = false;
+		private boolean amhsConnectionLost = false;
 
 	public void closeConnection() throws JMSException {
-		logger.info("Close Connection for consumer");
+//		logger.info("Close Connection for consumer");
 		if(connection!=null){
 			connection.close();
 		}
@@ -88,38 +65,33 @@ public class Consumer {
 	
 	public void startListening(String broker, String client, String username, String password, String queueName, 
 			String or, String dn, String pa, String credential) throws JMSException {
-		logger.info("Start Listening");
+//		logger.info("Start Listening");
 
 		// create a Connection Factory
 		ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(broker);
 
 		// create a Connection
 		connection = connectionFactory.createConnection(username, password);
-		connection.setClientID(client+"-consumer");
+		connection.setClientID(client);
 		connection.start();
 		connection.setExceptionListener(new ExceptionListener() {
             public void onException(JMSException exception) {
-                logger.error("ExceptionListener triggered: " + exception.getMessage(), exception);
-                connectionLost = true;
+                logger.error("ExceptionListener triggered: " + exception.getMessage());
+                swimConnectionLost = true;
             }
         });
 		// create a Session
 		session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-		
-		
-		// Set exception listener
-
-		
-		// create the Topic from which messages will be received
 
 		Destination destination = session.createQueue(queueName);
 
 		// create a MessageConsumer for receiving messages
 		messageConsumer = session.createConsumer(destination);
 
-		connectionLost = false;
+		swimConnectionLost = false;
 		messageConsumer.setMessageListener(new MessageListener() {
 
+			Msgbox msgbox = new Msgbox();
 
 			@Override
 			public void onMessage(Message msg) {
@@ -127,35 +99,61 @@ public class Consumer {
 					if (!(msg instanceof TextMessage))
 						throw new RuntimeException("no text message");
 					TextMessage tm = (TextMessage) msg;
-					System.out.println(tm.getText()); // print message
-					connectionLost = false;
+//					System.out.println(tm.getText()); // print message
+					swimConnectionLost = false;
 					
-					Msgbox msgbox = ConvertorBean.convertXMLStringtoMsgbox(tm.getText());
-					System.out.println("Converted Msgbox subject: " + msgbox.getMsgSubject());
-					System.out.println("Converted Msgbox Text: " + msgbox.getMsgText());
-//					for (Msgboxattachment msgBoxAttachment : msgbox.getMsgboxattachments()) {
-//						System.out.println("Attachment: " + msgBoxAttachment.getFilename());
-//					}
-
-					
-					String msgText = msgbox.getMsgText();
-					msgText = msgText.replaceAll("\n", "\r\n");
-					msgbox.setMsgText(msgText);
-					
-//					List<Msgboxrecipient> msgboxrecipients = msgbox.getMsgboxrecipients();
-
-					int status = SendUtils.send_msg(msgbox, or, dn, pa, credential);
-					if (status == X400_att.X400_E_NOERROR)
+					try {
+						msgbox = ConvertorBean.convertXMLStringtoMsgbox(tm.getText());
+						String msgText = msgbox.getMsgText();
+						msgText = msgText.replaceAll("\n", "\r\n");
+						msgbox.setMsgText(msgText);
 						MsgboxBean.addMsgbox(msgbox);
+						
+						try {
+							SendUtils.send_msg(msgbox, or, dn, pa, credential);
+						}catch (X400UtilsException e) {
+							logger.error("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
+							+ " failed to be sent to Message Store (AMHS)");
+							amhsConnectionLost = true;
+						} 
+						logger.info("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
+						+ " has been sent to Message Store successfully");
+					} catch (JAXBException e) {
+						logger.error("XML: " + tm.getText()
+						+ " cannot be converted to AMHS message format");
+					}
+
+					
 				} catch (JMSException e) {
-					System.err.println("Error reading message");
-					logger.error("ExceptionListener triggered: " + e.getMessage(), e);
-					connectionLost = true;
+					logger.error("Message: " + msg
+					+ " failed to be read from ActiveMQ (SWIM)");
+				
+					swimConnectionLost = true;
 				} 
 			}
 		});
 
-//		Thread.sleep(60 * 1000); // receive messages for 60s (more)
-//		closeConnection(); // free all resources (more)
 	}
+
+
+	public boolean isSwimConnectionLost() {
+		return swimConnectionLost;
+	}
+
+
+	public void setSwimConnectionLost(boolean swimConnectionLost) {
+		this.swimConnectionLost = swimConnectionLost;
+	}
+
+
+	public boolean isAmhsConnectionLost() {
+		return amhsConnectionLost;
+	}
+
+
+	public void setAmhsConnectionLost(boolean amhsConnectionLost) {
+		this.amhsConnectionLost = amhsConnectionLost;
+	}
+
+
 }

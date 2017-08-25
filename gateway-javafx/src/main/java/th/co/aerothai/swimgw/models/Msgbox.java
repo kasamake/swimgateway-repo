@@ -2,8 +2,14 @@ package th.co.aerothai.swimgw.models;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -180,6 +186,7 @@ public class Msgbox implements Serializable {
 
 	public void setAtsPriority(String atsPriority) {
 		this.atsPriority = atsPriority;
+		
 	}
 
 	public void setAtsEncode(String atsEncode) {
@@ -576,7 +583,25 @@ public class Msgbox implements Serializable {
 	}
 	
 	public String getMsgboxToSwimDetail() {
-		String detail = msgOrgn2+" -> " + msgTo + " (" + msgType + ")" + receivetime;
+		
+		//"VTBBOPMT -> VTBBYUAA 06 Jun 2017 08:36:09 FF 060836 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C ... "
+        DateFormat originaldf = new SimpleDateFormat("yyMMddHHmmss"); 
+        originaldf.setTimeZone(TimeZone.getTimeZone("UTC"));
+        
+        //17-03-29 07:21:08Z
+        DateFormat converteddf = new SimpleDateFormat("yy-MM-dd HH:mm:ss"); 
+        converteddf.setTimeZone(TimeZone.getTimeZone("UTC"));
+        
+        String convertedTime = "";
+		try {
+			String receivetimeString = receivetime.toString().substring(0, receivetime.length()-1);
+			Date receivetimeStringDate = originaldf.parse(receivetimeString);
+			convertedTime = converteddf.format(receivetimeStringDate)+"Z";
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		String detail = msgOrgn2+" -> " + msgTo + " (" + msgType + ")" + convertedTime + " " + atsPriority + ":" + atsFilingtime;
+//		System.out.println("Length Detail: "+detail.length());
 		return detail;
 	}
 }

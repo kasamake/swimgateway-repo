@@ -23,14 +23,25 @@ public class MsgboxBean {
 	// Persistence.createEntityManagerFactory("jpa-swimgw");
 	// Get the Entity Manager
 	// EntityManager entityManager = entityManagerFactory.createEntityManager();
+	@PersistenceContext
 	static EntityManager em = PersistenceManager.INSTANCE.getEntityManager();
 
 	public static Msgbox addMsgbox(Msgbox msgbox) {
 		System.out.println("Add Msgbox");
 		
-		em.getTransaction().begin();
-		em.persist(msgbox);
-		em.getTransaction().commit();
+		
+		try{
+			if(!em.getTransaction().isActive()){
+				em.getTransaction().begin();
+			}
+			em.persist(msgbox);
+			em.getTransaction().commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		
+//		em.flush();
 //		em.close();
 //		PersistenceManager.INSTANCE.close();
 		System.out.println("Msgbox ID: " + msgbox.getId());
@@ -44,7 +55,10 @@ public class MsgboxBean {
 	public static boolean addMsgbox(List<Msgbox> msgboxes) {
 		System.out.println("Add msgboxes");
 //		EntityManager em = PersistenceManager.INSTANCE.getEntityManager();
-		em.getTransaction().begin();
+		if(!em.getTransaction().isActive()){
+			em.getTransaction().begin();
+		}
+//		em.getTransaction().begin();
 
 		for (int i = 0; i < msgboxes.size(); i++) {
 			Msgbox msgbox = (Msgbox) msgboxes.get(i);
@@ -74,7 +88,7 @@ public class MsgboxBean {
 		FileOutputStream fos;
 		try {
 			Path directoryPath = Paths.get("SwimMsgBoxAttachment");
-			System.out.println("Directory path: " + directoryPath.toAbsolutePath().toString());
+//			System.out.println("Directory path: " + directoryPath.toAbsolutePath().toString());
 			File directory = directoryPath.toAbsolutePath().toFile();
 			if (!directory.exists()) {
 				directory.mkdirs();

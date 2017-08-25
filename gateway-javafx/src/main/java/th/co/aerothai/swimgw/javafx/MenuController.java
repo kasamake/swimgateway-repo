@@ -46,11 +46,11 @@ public class MenuController {
         appClient.showGatewaySetup();
     }
  
-    @FXML
-    private void showConsoleView() {
-        System.out.println("showConsoleView");
-        appClient.showConsoleView();
-    }
-    
+//    @FXML
+//    private void showConsoleView() {
+//        System.out.println("showConsoleView");
+//        appClient.showConsoleView();
+//    }
+//    
     
 }

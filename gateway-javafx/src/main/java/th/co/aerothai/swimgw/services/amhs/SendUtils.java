@@ -1321,7 +1321,7 @@ public class SendUtils {
 		return status;
 	}
 
-	public static int send_msg(Msgbox msgBox, String or, String dn, String pa, String credential) {
+	public static void send_msg(Msgbox msgBox, String or, String dn, String pa, String credential) throws X400UtilsException {
 		int type = 0;
 		int status;
 
@@ -1340,7 +1340,7 @@ public class SendUtils {
 
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_open failed " + status);
-			return status;
+			throw new X400UtilsException("MS Session connection failed", status);
 		}
 		System.out.println("Opened MS session successfully");
 
@@ -1349,7 +1349,7 @@ public class SendUtils {
 				"x400api.xml", -1);
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_setstrdefault failed " + status);
-			return status;
+			throw new X400UtilsException("MS Session configuration setting failed", status);
 		}
 
 		// instantiate a message object, and make it an API object
@@ -1360,7 +1360,7 @@ public class SendUtils {
 		status = build_msmsg(session_obj, msmessage_obj, p7_sender, msgBox);
 		// }
 		if (status != X400_att.X400_E_NOERROR) {
-			return status;
+			return;
 		}
 
 		// Set up a default security env so we can sign messages
@@ -1376,7 +1376,7 @@ public class SendUtils {
 		status = com.isode.x400api.X400ms.x400_ms_msgsend(msmessage_obj);
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_msgsend failed " + status);
-			return status;
+			return;
 		}
 		System.out.println("Submitted message successfully**");
 
@@ -1384,9 +1384,9 @@ public class SendUtils {
 		status = com.isode.x400api.X400ms.x400_ms_close(session_obj);
 		if (status != X400_att.X400_E_NOERROR) {
 			System.out.println("x400_ms_close failed " + status);
-			return status;
+			return;
 		}
 		System.out.println("Closed MS Session successfully\n");
-		return status;
+		return;
 	}
 }
