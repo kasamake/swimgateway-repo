@@ -21,7 +21,7 @@
 	<children>
 		<BorderPane prefHeight="340.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
 			<center>
-				<TabPane prefHeight="320.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+				<TabPane tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
 					<tabs>
 						<Tab text="AMHS Setup">
 							<content>
@@ -115,12 +115,16 @@
 						</Tab>
 						<Tab text="AMHS to SWIM">
 							<content>
-								<AnchorPane fx:id="amhsToSwimLog" />
+								<AnchorPane fx:id="amhsToSwimLog">
+                              <Button layoutX="15.0" layoutY="295.0" mnemonicParsing="false" onAction="#clearAmhsToSwimlog" text="Clear" AnchorPane.bottomAnchor="10.0"/>
+                           </AnchorPane>
 							</content>
 						</Tab>
 						<Tab text="SWIM to AMHS">
 							<content>
-								<AnchorPane fx:id="swimToAmhsLog" />
+								<AnchorPane fx:id="swimToAmhsLog">
+									<Button layoutX="15.0" layoutY="295.0" mnemonicParsing="false" onAction="#clearSwimToAmhslog" text="Clear" AnchorPane.bottomAnchor="10.0"/>
+								</AnchorPane>
 							</content>
 						</Tab>
 					</tabs>

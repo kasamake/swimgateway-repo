@@ -117,7 +117,8 @@ public class Consumer {
 							amhsConnectionLost = true;
 						} 
 						logger.info("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
-						+ " has been sent to Message Store successfully");
+						+ " [Message Store]");
+//						+ " has been sent to Message Store successfully");
 					} catch (JAXBException e) {
 						logger.error("XML: " + tm.getText()
 						+ " cannot be converted to AMHS message format");

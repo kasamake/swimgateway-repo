@@ -30,6 +30,7 @@ public class Msgboxrecipient
   @Id
   @GeneratedValue(strategy=GenerationType.IDENTITY)
   @Column(name="ID")
+  @XmlTransient
   private Integer id;
   @Column(name="ADDRESS")
   private Integer address;

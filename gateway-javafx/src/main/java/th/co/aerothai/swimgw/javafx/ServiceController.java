@@ -376,7 +376,8 @@ public class ServiceController {
 										producer.sendMessage(xml, "FIXM");
 										
 										producerLogger.info("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
-												+ " has been sent to FIXM successfully");
+										+ " [FIXM]");
+//												+ " has been sent to FIXM successfully");
 									} catch (JMSException e) {
 										producerLogger.error("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
 												+ " failed to be sent to FIXM");
@@ -389,7 +390,8 @@ public class ServiceController {
 										producer.sendMessage(xml, "AIXM");
 //										MsgboxBean.addMsgbox(msgbox);
 										producerLogger.info("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
-												+ " has been sent to AIXM successfully");
+										+ " [AIXM]");
+//												+ " has been sent to AIXM successfully");
 									} catch (JMSException e) {
 										producerLogger.error("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
 												+ " failed to be sent to AIXM");
@@ -412,7 +414,8 @@ public class ServiceController {
 									try {
 										producer.sendMessage(xml, "WXXM");
 										producerLogger.info("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
-												+ " has been sent to WXXM successfully");
+										+ " [WXXM]");
+//												+ " has been sent to WXXM successfully");
 									} catch (JMSException e) {
 										producerLogger.error("Message" + "(" + msgbox.getId() + "): " + msgbox.getMsgboxToSwimDetail()
 												+ " failed to be sent to WXXM");
@@ -514,5 +517,15 @@ public class ServiceController {
 				}
 				initialize();
 	}
-
+	
+	@FXML
+	private void clearAmhsToSwimlog() {
+		appClient.clearAmhsToSwimView();
+	
+	}
+	@FXML
+	private void clearSwimToAmhslog() {
+		appClient.clearSwimToAmhsView();
+	
+	}
 }

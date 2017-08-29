@@ -8,10 +8,14 @@ import org.apache.log4j.WriterAppender;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
 import javafx.stage.Stage;
 import th.co.aerothai.swimgw.services.jms.Consumer;
 import th.co.aerothai.swimgw.services.jms.Producer;
@@ -33,7 +37,7 @@ public class AppClient extends Application{
 	public void start(Stage primaryStage) {
 		
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("AMHS/SWIM Gateway Client");
+        this.primaryStage.setTitle("AMHS/SWIM Gateway");
         
         initRootLayout();
         
@@ -75,7 +79,7 @@ public class AppClient extends Application{
         try {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/fxml/GatewaySetup.fxml"));
+            loader.setLocation(getClass().getResource("/fxml/GatewayMain.fxml"));
 
             AnchorPane gatewaySetupView = (AnchorPane) loader.load();
 
@@ -83,6 +87,7 @@ public class AppClient extends Application{
             rootLayout.setCenter(gatewaySetupView);
             
             AnchorPane amhsToSwimAnchor = (AnchorPane)rootLayout.lookup("#amhsToSwimLog");
+//            amhsToSwimAnchor.setTopAnchor(child, value);
             setupAmhsToSwimView();
             amhsToSwimAnchor.getChildren().add(amhsToSwimView);
             
@@ -119,24 +124,42 @@ public class AppClient extends Application{
 //        }
 //    }
     private void setupAmhsToSwimView() {
-    	amhsToSwimView.setLayoutX(15);
-    	amhsToSwimView.setLayoutY(15);
-    	amhsToSwimView.setPrefWidth(770);
-    	amhsToSwimView.setPrefHeight(260);
+      
+//    	amhsToSwimView.setLayoutX(15);
+//    	amhsToSwimView.setLayoutY(15);
+//    	amhsToSwimView.setPrefWidth(770);
+//    	amhsToSwimView.setPrefHeight(260);
     	amhsToSwimView.setWrapText(true);
-//    	amhsToSwimView.appendText("Starting recieving messages from AMHS to SWIM\n");
     	amhsToSwimView.setEditable(false);
+    	
+        AnchorPane.setTopAnchor(amhsToSwimView, 15.0);
+        AnchorPane.setLeftAnchor(amhsToSwimView, 15.0);
+        AnchorPane.setRightAnchor(amhsToSwimView, 15.0);
+        AnchorPane.setBottomAnchor(amhsToSwimView, 50.0);
+
     }
     private void setupSwimToAmhsView() {
-    	swimToAmhsView.setLayoutX(15);
-    	swimToAmhsView.setLayoutY(15);
-    	swimToAmhsView.setPrefWidth(770);
-    	swimToAmhsView.setPrefHeight(260);
+//    	swimToAmhsView.setLayoutX(15);
+//    	swimToAmhsView.setLayoutY(15);
+//    	swimToAmhsView.setPrefWidth(770);
+//    	swimToAmhsView.setPrefHeight(260);
     	swimToAmhsView.setWrapText(true);
-//    	swimToAmhsView.appendText("Starting recieving messages from SWIM to AMHS\n");
     	swimToAmhsView.setEditable(false);
+    	
+        AnchorPane.setTopAnchor(swimToAmhsView, 15.0);
+        AnchorPane.setLeftAnchor(swimToAmhsView, 15.0);
+        AnchorPane.setRightAnchor(swimToAmhsView, 15.0);
+        AnchorPane.setBottomAnchor(swimToAmhsView, 50.0);
     }
 	public static void main(String[] args) {
 		launch(args);
+	}
+	
+	public void clearAmhsToSwimView() {
+		amhsToSwimView.clear();
+	}
+	
+	public void clearSwimToAmhsView() {
+		swimToAmhsView.clear();
 	}
 }

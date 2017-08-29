@@ -38,6 +38,7 @@ public class Msgbox implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID")
+	@XmlTransient
 	private int id;
 	@Column(name = "ATS_ENCODE")
 	private String atsEncode;
@@ -584,7 +585,6 @@ public class Msgbox implements Serializable {
 	
 	public String getMsgboxToSwimDetail() {
 		
-		//"VTBBOPMT -> VTBBYUAA 06 Jun 2017 08:36:09 FF 060836 IA5-TEXT (FPL-ADMN04-VM -S76/L-S/C ... "
         DateFormat originaldf = new SimpleDateFormat("yyMMddHHmmss"); 
         originaldf.setTimeZone(TimeZone.getTimeZone("UTC"));
         
@@ -600,7 +600,16 @@ public class Msgbox implements Serializable {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		String detail = msgOrgn2+" -> " + msgTo + " (" + msgType + ")" + convertedTime + " " + atsPriority + ":" + atsFilingtime;
+		
+//		System.out.println("Originator: "+msgOrgn+"   ---   "+msgOrgn2);
+//		String detail = ((msgOrgn2.equals(null)) || (msgOrgn2.length()==0 ) ? msgOrgn : msgOrgn2)+" -> " + msgTo + " (" + msgType + ")" + convertedTime + " " + atsPriority + ":" + atsFilingtime;
+		String detail;
+		if(msgOrgn2.equals("null")) {
+			detail = msgOrgn+" -> " + msgTo + " (" + msgType + ")" + convertedTime + " " + atsPriority + ":" + atsFilingtime;
+		} else {
+			detail = msgOrgn2+" -> " + msgTo + " (" + msgType + ")" + convertedTime + " " + atsPriority + ":" + atsFilingtime;
+		}
+		
 //		System.out.println("Length Detail: "+detail.length());
 		return detail;
 	}

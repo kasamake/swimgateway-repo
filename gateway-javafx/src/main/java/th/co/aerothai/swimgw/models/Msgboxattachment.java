@@ -30,6 +30,7 @@ public class Msgboxattachment
   @Id
   @GeneratedValue(strategy=GenerationType.IDENTITY)
   @Column(name="ID")
+  @XmlTransient
   private Integer id;
   @Column(name="BFILE")
   private byte[] bfile;
