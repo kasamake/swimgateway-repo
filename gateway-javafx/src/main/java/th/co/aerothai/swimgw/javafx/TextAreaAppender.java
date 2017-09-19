@@ -47,7 +47,7 @@ public class TextAreaAppender extends WriterAppender {
                 }
             });
         } catch (final IllegalStateException e) {
-            // ignore case when the platform hasn't yet been iniitialized
+            // ignore case when the platform hasn't yet been initialized
         }
     }
 }

@@ -6,6 +6,8 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.WriterAppender;
 
 import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
@@ -17,6 +19,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import th.co.aerothai.swimgw.services.jms.Consumer;
 import th.co.aerothai.swimgw.services.jms.Producer;
 
@@ -42,6 +45,15 @@ public class AppClient extends Application{
         initRootLayout();
         
         showGatewaySetup();
+        
+        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
+            public void handle(WindowEvent we) {
+                System.out.println("Stage is closing");
+                Platform.exit();
+                System.exit(0);
+            }
+        }); 
+        
         
         logger.info("AMHS/SWIM Gateway Client Application started");
 	}

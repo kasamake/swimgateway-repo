@@ -1,10 +1,5 @@
 package th.co.aerothai.swimgw.client.web;
 
-import java.io.IOException;
-import java.io.PrintStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.PostConstruct;
@@ -14,7 +9,6 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.jms.JMSException;
 import javax.naming.NamingException;
-import javax.validation.constraints.AssertTrue;
 
 import com.isode.x400api.X400_att;
 
@@ -23,7 +17,6 @@ import th.co.aerothai.swimgw.jms.impl.MsgboxTimerBean;
 import th.co.aerothai.swimgw.models.Msgbox;
 import th.co.aerothai.swimgw.models.Msgboxattachment;
 import th.co.aerothai.swimgw.models.Msgboxrecipient;
-import th.co.aerothai.swimgw.services.api.IConvertorBean;
 import th.co.aerothai.swimgw.services.api.IMsgboxBean;
 import th.co.aerothai.swimgw.services.api.IX400Utils;
 import th.co.aerothai.swimgw.services.x400.SendUtils;
